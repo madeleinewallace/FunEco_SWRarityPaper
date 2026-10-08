@@ -1,0 +1,1304 @@
+<?xml-stylesheet href='C:\LSP Program Files\Metavist_2021\XML\NBII_classic.xsl' type='text/xsl'?>
+<metadata>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Moore, Margaret M.</origin>
+        <origin>Jenness, Jeffrey S.</origin>
+        <origin>Laughlin, Daniel C.</origin>
+        <origin>Strahan, Robert T.</origin>
+        <origin>Bakker, Jonathan D.</origin>
+        <origin>Dowling, Helen E.</origin>
+        <origin>Springer, Judith D.</origin>
+        <pubdate>2025</pubdate>
+        <title>Cover and density data of southwestern ponderosa pine understory plants in permanent chart quadrats (2002-2020+)</title>
+        <geoform>tabular and vector digital data</geoform>
+        <edition>2nd</edition>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2021-0092-2</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data publication includes cover and density data collected on 101 permanent 1 meter (m) x 1 m (1-m²) quadrats located within southwestern ponderosa pine ecosystems near Flagstaff, Arizona, USA. Individual plants in these quadrats were identified and mapped annually for 23 years (2002-2024). The original chart quadrats were established between 1912 and 1927. We provide the following data and data formats: (1) digitized maps of all plant locations in shapefile and geodatabase format, (2) shapefiles showing annual locations of each individual plant species, (3) exported annual maps of each quadrat in TIFF and PDF format, (4) annual basal area of each species per quadrat for species mapped as polygons, (5) tabular representation of polygon areas and centroid locations for plant species mapped as polygons, (6) tabular representation of point locations for plant species mapped as points, (7) plot-scale 20 m x 20 m overstory tree canopy cover, tree basal area, parent material, and elevation, (8) quadrat-scale information (e.g., quadrat site and number, coordinates in UTM Zone 12 and latitude/longitude, and descriptive comments for each quadrat), (9) plant species list, (10) summary of plant species observed in each quadrat, (11) summary of quadrats mapped by site and year, and (12) data formatted for use in Integral Projection Models (IPM) and plant population analyses.</abstract>
+      <purpose>The original chart quadrats were established to determine the effects of domestic livestock grazing on herbaceous plants and pine seedlings. Today these data provide opportunities to examine the effects of climate and land-use change on plant demography, population dynamics, and community processes.</purpose>
+      <supplinf>For more information about this study and these data see Moore et al. (2022, https://doi.org/10.1002/ecy.3661). All associated novel code files are permanently archived in a Zenodo repository (https://doi.org/10.5281/zenodo.7581945).
+	  
+The first edition of these data, Moore et al. (2021; https://doi.org/10.2737/RDS-2021-0092) contains data from 2020-2022. This second edition, published on 04/16/2025, includes data for 2023 and 2024. Modifications were made to the individual species shapefile folder names, and additional data-entry errors were found and fixed. Specifically we added “2002-2024” to all the individual species folder names to indicate that the folder contained all data between those years. On Plot 26346 we fixed an error in which the quadrat was incorrectly rotated in 2022. On Plot 30737 we fixed an error in which the quadrat was incorrectly rotated in the years 2009-2015. We found that Thinopyrum intermeidium had been historically misidentified as Pascopyrum smithii on Quadrats 3 and 30740, and that Thinopyrum intermeidium had been historically misidentified as Elymus trachycaulus on Quadrats 3, 4, 30739 and 30740. All cases were corrected to Thinopyrum intermeidium.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2002</begdate>
+          <enddate>2024</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Ground condition</current>
+    </timeperd>
+    <status>
+      <progress>In progress</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <eastbc>-111.55</eastbc>
+        <westbc>-111.84</westbc>
+        <northbc>35.07</northbc>
+        <southbc>35.45</southbc>
+        <boundalt>
+          <altmax>2500</altmax>
+          <altmin>2070</altmin>
+          <altunits>meters</altunits>
+        </boundalt>
+      </bounding>
+      <descgeog>The study area is within 40 kilometers (km) of Flagstaff, AZ. Quadrats are distributed over multiple sites, on the Coconino National Forest and Fort Valley Experimental Forest, spanning varying parent materials and topographic positions and the elevational range of the ponderosa pine ecosystem type of northern Arizona (see \Data\Ancillary_Data_CSVs\Overstory_Data_and_Quadrat_Locations.csv).
+	  
+Detailed information about the study area can be found in Moore et al. (2022, https://doi.org/10.1002/ecy.3661).</descgeog>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>biota</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>National Research &amp; Development Taxonomy</themekt>
+        <themekey>Climate change</themekey>
+        <themekey>Climate change effects</themekey>
+        <themekey>Ecological adaptation</themekey>
+        <themekey>Ecology, Ecosystems, &amp; Environment</themekey>
+        <themekey>Plant ecology</themekey>
+        <themekey>Forest &amp; Plant Health</themekey>
+        <themekey>Botany</themekey>
+        <themekey>Climate effects</themekey>
+        <themekey>Human effects</themekey>
+        <themekey>Rangeland plants</themekey>
+        <themekey>Inventory, Monitoring, &amp; Analysis</themekey>
+        <themekey>Monitoring</themekey>
+        <themekey>Natural Resource Management &amp; Use</themekey>
+        <themekey>Range management &amp; grazing</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>chart quadrat</themekey>
+        <themekey>demography</themekey>
+        <themekey>forbs</themekey>
+        <themekey>long-term study</themekey>
+        <themekey>graminoid</themekey>
+        <themekey>population dynamics</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Arizona</placekey>
+        <placekey>Fort Valley Experimental Forest</placekey>
+        <placekey>Coconino National Forest</placekey>
+      </place>
+    </keywords>
+    <taxonomy>
+      <keywtax>
+        <taxonkt>None</taxonkt>
+        <taxonkey>multiple species</taxonkey>
+        <taxonkey>plants</taxonkey>
+      </keywtax>
+      <taxonsys>
+        <classsys>
+          <classcit>
+            <citeinfo>
+              <origin>ITIS</origin>
+              <pubdate>2022</pubdate>
+              <title>Integrated Taxonomic Information System</title>
+              <geoform>on-line database</geoform>
+              <onlink>https://www.itis.gov</onlink>
+              <onlink>https://doi.org/10.5066/F7KH0KBK</onlink>
+            </citeinfo>
+          </classcit>
+        </classsys>
+      </taxonsys>
+    </taxonomy>
+    <accconst>None</accconst>
+    <useconst>These data were collected using funding from the U.S. Government and can be used without additional permissions or fees. If you use these data in a publication, presentation, or other research product please use the following citation: 
+
+Moore, Margaret M.; Jenness, Jeffrey S.; Laughlin, Daniel C.; Strahan, Robert T.; Bakker, Jonathan D.; Dowling, Helen E.; Springer, Judith D. 2025. Cover and density data of southwestern ponderosa pine understory plants in permanent chart quadrats (2002-2020+). 2nd Edition. Fort Collins, CO: Forest Service Research Data Archive. https://doi.org/10.2737/RDS-2021-0092-2</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Jenness Enterprises</cntorg>
+          <cntper>Jeffrey S. Jenness</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3020 N. Schevene Blvd.</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86004</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928-607-4638 or 928-526-4139</cntvoice>
+        <cntpos>GIS Analysis and Application Design</cntpos>
+        <cntemail>jeffj@jennessent.com</cntemail>
+        <cntinst>This contact information was current as of original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Northern Arizona University, School of Forestry</cntorg>
+          <cntper>Margaret M. Moore</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Northern Arizona University</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86011</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928-523-7457</cntvoice>
+        <cntpos>Professor</cntpos>
+        <cntemail>Margaret.Moore@nau.edu</cntemail>
+        <cntinst>This contact information was current as of original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Rocky Mountain Research Station</cntorg>
+          <cntper>W. Keith Moser</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>2500 South Pine Knoll Drive</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86001</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928-556-2046</cntvoice>
+        <cntpos>Research Forester; Fort Valley Experimental Forest Scientist-in-Charge</cntpos>
+        <cntemail>warren.k.moser@usda.gov</cntemail>
+        <cntinst>This contact information was current as of original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Logistical and financial support was provided by the Northern Arizona University (NAU) School of Forestry through McIntire-Stennis grant funding and through the NAU Ecological Restoration Institute through annual in-kind staff and undergraduate personnel field and computer support. Financial support was also provided by the National Research Initiative of the USDA Cooperative State Research, Education and Extension Service, grant number 2003-35101-12919; National Science Foundation, collaborative research grant DEB-1906167; and USDA Forest Service, Rocky Mountain Research Station.
+	
+
+Author Information:
+
+Moore, Margaret M.
+Northern Arizona University, School of Forestry
+https://orcid.org/0000-0002-3460-756X
+
+Jenness, Jeffrey S.
+Jenness Enterprises, GIS Analysis and Application Design
+https://orcid.org/0000-0002-9448-1444
+
+Laughlin, Daniel C.
+University of Wyoming, Department of Botany
+https://orcid.org/0000-0002-9651-5732
+
+Strahan, Robert T.
+Lomakatsi Restoration Project
+
+Bakker, Jonathan D.
+University of Washington, School of Environmental and Forest Sciences
+https://orcid.org/0000-0002-8973-2771
+
+Dowling, Helen E.
+Washington State Department of Fish &amp; Wildlife
+
+Springer, Judith D.
+Northern Arizona University, Ecological Restoration Institute
+</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Moore, Margaret M.</origin>
+        <origin>Jenness, Jeffrey S.</origin>
+        <origin>Laughlin, Daniel C.</origin>
+        <origin>Strahan, Robert T.</origin>
+        <origin>Bakker, Jonathan D.</origin>
+        <origin>Dowling, Helen E.</origin>
+        <origin>Springer, Judith D.</origin>
+        <pubdate>2021</pubdate>
+        <title>Cover and density data of southwestern ponderosa pine understory plants in permanent chart quadrats (2002-2020+)</title>
+        <geoform>tabular and vector digital data</geoform>
+        <edition>1st</edition>
+        <pubinfo>
+          <pubplace>Fort Collins, CO</pubplace>
+          <publish>Forest Service Research Data Archive</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.2737/RDS-2021-0092</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Moore, Margaret M.</origin>
+        <origin>Jenness, Jeffrey S.</origin>
+        <origin>Laughlin, Daniel C.</origin>
+        <origin>Strahan, Robert T.</origin>
+        <origin>Bakker, Jonathan D.</origin>
+        <origin>Dowling, Helen E.</origin>
+        <origin>Springer, Judith D.</origin>
+        <pubdate>2022</pubdate>
+        <title>Cover and density of southwestern ponderosa pine understory plants in permanent chart quadrats (2002-2020)</title>
+        <geoform>journal article</geoform>
+        <serinfo>
+          <sername>Ecology</sername>
+          <issue>e3661</issue>
+        </serinfo>
+        <onlink>https://doi.org/10.1002/ecy.3661</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Jenness, Jeffrey S.</origin>
+        <pubdate>2025</pubdate>
+        <title>VBA Code to analyze cover and density of southwestern ponderosa pine understory plants in permanent chart quadrats: 2002-2024</title>
+        <geoform>code</geoform>
+        <edition>2025</edition>
+        <pubinfo>
+          <publish>Zenodo</publish>
+        </pubinfo>
+        <onlink>https://doi.org/10.5281/zenodo.7581945</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>All maps were checked for completeness and accuracy after all individual plants had been digitized and again prior to spatial adjustment. Shapefiles were rotated to have a consistent North-South vertical orientation, but the tagged corner in the field is not consistently North-South. All perennial graminoids were digitized as polygon features, as were the three low-growing, mat-forming forbs (Eremogone fendleri (A. Gray) Ikonn. [formerly Arenaria fendleri A. Gray], Antennaria rosulata Rydb., and Antennaria parvifolia Nutt.). With the exception of the three species above, all woody plants, annual graminoids, annual and perennial forbs were digitized as point features. Plant scientific names and taxonomic authority is the Integrated Taxonomic Information System (ITIS) https://www.itis.gov/. Some questionable, infrequent taxa were lumped at the genera level.
+
+	  
+Quality assurance/quality control procedures:
+	  
+After digitizing each 2002-2024 scanned map, we examined each attribute table for misspelled species names or cases where the species scientific name had changed over the study period. We visually inspected each mapped quadrat, comparing it to previous and subsequent years to spot potential issues with species that might have been misidentified in one year, but correctly identified in other years. We also corrected a few cases where the digitized quadrat was rotated by 90° or 180° from the original orientation. There were cases in which multiple polygons representing the same species in the same year overlapped by some amount. In some cases it was clear that the same polygon was accidentally digitized more than once, and in other cases it was clear that they actually represented different clusters of plants, but had accidentally touched so they appeared to be a single cluster. We resolved these issues with overlapping polygons by the following logic (and see function “RepairOverlappingPolygons” in the VBA code module “More_Margaret_Functions”; code modules are included in supporting information and in a Zenodo repository (https://doi.org/10.5281/zenodo.7581945):
+
+i) We overlaid each pair of polygons that touched each other, and computed the lengths of the borders of each polygon that contacted the neighboring polygon. We also computed the area of the intersecting region.
+
+ii)  If either the intersecting border length was &gt; 40% of the total border length of either polygon, or if the area of the overlapping intersection region was &gt; 40% of the total area of either polygon, then we concluded that these two polygons actually represented the same plant group on the ground and we merged the two polygons into a single object.
+
+iii) Otherwise, we concluded that these two polygons represented different plant groups and we inserted a 1 millimeter (mm) gap between the two polygons.
+
+All original digitizing was done within a local coordinate system describing a generic 1-m², which allows plant demographic patterns to be analyzed within a particular quadrat over time. In addition, in order to analyze a quadrat within a site or landscape context (elevation, parent material, etc.), we then georeferenced each digitized polygon and quadrat to its true spatial location on the landscape. These spatially corrected quadrat datasets are not guaranteed to be oriented correctly (i.e., the top of the quadrat may not actually be true north), but they can now be analyzed against other spatial datasets.
+
+The procedures described above ensured accurate transfer of information from the original to the digital maps and correction of some errors introduced at the original mapping stage. Nevertheless, future users must become familiar enough with the raw data provided here to determine whether it is appropriate for their particular research question.
+	  </attraccr>
+    </attracc>
+    <logic>see attribute accuracy information</logic>
+    <complete>No quadrats were surveyed in 2008. Quadrats 26347 and 30705 were relocated in 2003 and are therefore missing surveys for year 2002. Quadrats 46, 26340, 10/30710, 16/30716, 18/30718, 30712, 30727, 30737, 30745, 30746 and 30747 were relocated in 2004 and are therefore missing surveys for 2002 and 2003. Quadrats 1, 2, 3, 4, 101, 102, 103, 105, 107, 108, 109, 110, 114, 115, 119, 120, 121, 122, 123, 124, 125, 22241, 29003, 29004, 29106, 29017, 29025 and 8/30708 were relocated in 2006 and are therefore missing surveys for 2002-2005. Quadrats 104, 21114, 21174, 21262, 21269, 22126, 22156, 22244, 23155 and 23159 were relocated in 2007 and are therefore missing surveys for years 2002-2006. Quadrats 106, 494 and 498 were relocated in 2016 and are therefore missing surveys for 2002-2015. Quadrat 30705 was not surveyed in 2005. Quadrat 4 was not surveyed in 2016-2018 because of time constraints and because the quadrat was covered with fire-induced tree-downfall. Downfall on Quadrat 4 was consumed in 2018 prescribed fire, and surveying recommenced in 2019. Quadrats 26340, 30704, 8/30708, 18/30718, 30711, 30712, 30727, 30736, 30737, 30745, 30746 and 30750 were not surveyed from 2016-2024 due to disturbance. Quadrat 2 was not surveyed in 2017, in the year in which the Boundary fire burned the quadrat resulting in complete overstory tree mortality and forest floor consumption. Quadrat 30738 was not surveyed from 2017-2023 due to time constraints.
+
+Quadrat survey efforts by year are summarized in the CSV file \Data\Ancillary_Data_CSVs\Summarize_Quadrats_by_Year.csv.
+</complete>
+    <lineage>
+      <method>
+        <methdesc>BACKGROUND
+
+Hill Range Study Plots:  
+R. R. Hill became the first Grazing Examiner for the United States Forest Service (USFS) in District 3 (now Region 3) in 1908. In 1912, he initiated a study on the Coconino National Forest to examine potential livestock damage to ponderosa pine regeneration and to quantify how the understory herbaceous vegetation recovers when protected from livestock grazing (Hill 1917, Hill 1920, Hill 1921, Talbot and Hill 1923, Glendening 1941, Arnold 1950, Arnold 1955, Bakker 2005, Bakker et al. 2008). As part of this study, Hill established sixty 1-m² quadrats in 1912 at five sites: Big Fill, Black Springs, Fry Park, Reese Tank, and Rogers Lake. We re-mapped these Hill quadrats annually from 2002-2024 (Bakker 2005, Bakker et al. 2008, Laughlin 2009, Laughlin et al. 2011, Strahan 2013, Strahan et al. 2015, Dowling 2015, Perez Partridge 2021, Perez Partridge et al. 2025) and provide these data here.  
+
+Fort Valley Experimental Forest (FVEF) Permanent Sample Plots:  
+In 1909, G. A. Pearson, Director of the FVEF, and T. S. Woolsey Jr., the District Silviculturist, drafted a set of instructions that led to the establishment of a network of permanent sample plots (PSP) in the ponderosa pine forests of the Southwest (Woolsey 1911, Pearson 1923, 1931, 1933, 1942, 1950, Moore et al. 2004). On PSPs located on the FVEF, herbaceous understory subplots were established in 1914 to examine grass competition with pine seedling establishment, quantify woody and herbaceous plant composition, and document secondary plant succession. The understory subplots were approximately 1.5 x 3.0 m (5 feet [ft] x 10 ft) and were permanently marked with iron pipes (Moore et al. 1999a, 1999b, Bakker et al. 2002).  Originally, in 1914, eighty understory subplots were established on eight FVEF PSP sites (Pearson 1950). All plants were mapped on thirty-two of these subplots in 1914, and then each subplot was assigned a ‘denuded’ or ‘natural’ treatment. Sixteen subplots were ‘denuded’ (cultivated with a spade and all vegetation and propagules removed), while 16 subplots were left untreated (‘natural’). All plants were remapped in 1919 on both the ‘denuded’ and ‘natural’ subplots. 
+
+To standardize contemporary data collection with the other historical studies, we established ten 1-m² quadrats in the corner of the “natural” subplots at five PSP sites (COCS1A, COCS1B, COC2A, COCS2B, COCS3A). These 1-m² quadrats are permanently marked with rebar within the original subplots and were remapped annually since 2006 (Laughlin 2009, Laughlin et al. 2011, Strahan 2013). In the database, they are labelled according to their National Forest (COC, for Coconino National Forest), FVEF PSP name (S1A, S1B, S2A, S2B, S3A), original understory subplot name (A4, G4, F9, etc.), and the unique five-digit number on their tag (e.g., COC-S1A-A4-21114). Due to the uniquely different naming system for these ten quadrats, we have provided a list of their names in the file \Data\Ancillary_Data_CSVs\Quadrat_Locations_and_Data.csv to assist users in identifying these quadrats in the database. Fort Valley sites are identified in the “Site_Specific” attribute field, PSP names in the “Site” field, and original understory subplots in the “Note” field.
+ 
+Cooperrider and Cassidy Range Study or “Wild Bill” Quadrats:  
+In 1927, the FVEF initiated a study on the Wild Bill range of the Coconino National Forest to experimentally isolate the agents responsible for injury to ponderosa pine regeneration (Cassidy 1937a, 1937b, Cooperrider and Cassidy 1937, Cooperrider 1938, Cooperrider and Cassidy 1939a, 1939b), while simultaneously assessing the impacts of livestock grazing on herbaceous composition and cover (Laughlin and Moore 2008). This study was named after the two lead investigators, C. K. Cooperrider and H. O. Cassidy. Twenty-nine quadrats were installed on the Wild Bill and Willaha U.S. Forest Service range allotments, which span ~12,000 hectares (ha) northwest of Flagstaff, Arizona (Cassidy 1937a, 1937b, Cooperrider and Cassidy 1939a, 1939b, Laughlin and Moore 2008). Original quadrats were mapped from 1927 through 1938. We mapped these 1-m² quadrats annually between 2006-2024 (Laughlin 2009, Laughlin et al. 2011, Strahan 2013). These quadrats are collectively identified as “Wild Bill” in the database and further identified by their specific site name: Government Knolls, Kendrick Panel, SI Panel, Wild Bill, Willaha, and Dispersed Quadrats). Two additional quadrats were located within a historical livestock exclosure near the Wild Bill-Kendrick Panel, called FS 9009H Road-Old Exclosure, Plot 494 and 498, which were mapped annually between 2016-2024.
+
+Additional information can be found in Moore et al. (2022, https://doi.org/10.1002/ecy.3661).
+
+Some of the reference materials are unpublished hard copy documentation which are stored in the USDA Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives. For more information regarding these materials contact Margaret Moore or Keith Moser (Fort Valley Experimental Forest Scientist-in-Charge).
+</methdesc>
+        <methtype>Field</methtype>
+        <methcite>
+          <citeinfo>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Jenness, Jeffrey S.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Strahan, Robert T.</origin>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Dowling, Helen E.</origin>
+            <origin>Springer, Judith D.</origin>
+            <pubdate>2022</pubdate>
+            <title>Cover and density of southwestern ponderosa pine understory plants in permanent chart quadrats (2002-2020)</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecology</sername>
+              <issue>e3661</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1002/ecy.3661</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Arnold, Joseph F.</origin>
+            <pubdate>1950</pubdate>
+            <title>Changes in ponderosa pine bunchgrass ranges in northern Arizona resulting from pine regeneration and grazing</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Journal of Forestry</sername>
+              <issue>2(48): 118-126</issue>
+            </serinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Arnold, Joseph F.</origin>
+            <pubdate>1955</pubdate>
+            <title>Plant life-form classification and its use in evaluating range conditions and trend</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Journal of Range Management</sername>
+              <issue>8(4): 176-181</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.2307/3894219</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Bakker, Jonathan David</origin>
+            <pubdate>2005</pubdate>
+            <title>Long-term vegetation dynamics of ponderosa pine forests</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>PhD dissertation</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>Northern Arizona University, School of Forestry</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Springer, Judith D.</origin>
+            <origin>Crouse, Joseph E.</origin>
+            <pubdate>2002</pubdate>
+            <title>Long-term (85-year) understory vegetation change in Pinus ponderosa stands in northern Arizona</title>
+            <geoform>oral presentation</geoform>
+            <serinfo>
+              <sername>Ecological Society of America</sername>
+              <issue>87th Annual Meeting</issue>
+            </serinfo>
+            <pubinfo>
+              <publish>Ecological Society of America</publish>
+            </pubinfo>
+            <othercit>Oral presentation; Tucson, AZ</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <pubdate>2008</pubdate>
+            <title>The Hill plots: a rare long-term vegetation study</title>
+            <geoform>conference proceedings</geoform>
+            <othercit>pages 116-123</othercit>
+            <lworkcit>
+              <citeinfo>
+                <origin>Olberding, Susan D. (tech. coords.)</origin>
+                <origin>Moore, Margaret M. (tech. coords.)</origin>
+                <pubdate>2008</pubdate>
+                <title>Fort Valley Experimental Forest-A Century of Research 1908-2008</title>
+                <geoform>conference proceedings</geoform>
+                <pubinfo>
+                  <pubplace>Fort Collins, CO</pubplace>
+                  <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station</publish>
+                </pubinfo>
+                <othercit>August 7-9, 2008; Flagstaff, AZ; 282 p.</othercit>
+                <onlink>https://research.fs.usda.gov/treesearch/32482</onlink>
+              </citeinfo>
+            </lworkcit>
+            <onlink>https://research.fs.usda.gov/treesearch/32500</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Cassidy, H. O.</origin>
+            <pubdate>1937</pubdate>
+            <title>How cattle may use cut-over ponderosa pine-bunchgrass ranges with minimum injury to reproduction</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Research Note</sername>
+              <issue>15: 1-3</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Tucson, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Southwestern Forest and Range Experiment Station</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Cassidy, H. O.</origin>
+            <pubdate>1937</pubdate>
+            <title>How to handle sheep on cut-over ponderosa pine-bunchgrass ranges to keep injury to reproduction to a minimum</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Research Note</sername>
+              <issue>16: 1-2</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Tucson, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Southwestern Forest and Range Experiment Station</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Cooperrider, Charles K.</origin>
+            <origin>Cassidy, H. O.</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Cattle grazing on cut-over timberlands in relation to regeneration of pine forests</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives</publish>
+            </pubinfo>
+            <othercit>1937; 93 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Cooperrider, Charles K.</origin>
+            <pubdate>1938</pubdate>
+            <title>Recovery processes of ponderosa pine reproduction following injury to young annual growth</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Plant Physiology</sername>
+              <issue>13(1): 5-27</issue>
+            </serinfo>
+            <pubinfo>
+              <publish>Oxford University Press</publish>
+            </pubinfo>
+            <onlink>https://doi.org/10.1104/pp.13.1.5</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Cooperrider, Charles K.</origin>
+            <origin>Cassidy, H. O.</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Cattle grazing in cutover timberlands in relation to regeneration of ponderosa pine forests of the Southwest</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives</publish>
+            </pubinfo>
+            <othercit>1939</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Cooperrider, Charles K.</origin>
+            <origin>Cassidy, H. O.</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Sheep grazing in cutover timberlands in relation to regeneration of ponderosa pine forests of the Southwest</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives</publish>
+            </pubinfo>
+            <othercit>1939</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Dowling, Helen E.</origin>
+            <pubdate>2015</pubdate>
+            <title>Mapped permanent quadrats: A window through time into herbaceous plant demography</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Master's Thesis</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>Northern Arizona University, School of Forestry</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Glendening, G. E.</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Work plan – summer 1941: Hill study plots, Coconino</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives</publish>
+            </pubinfo>
+            <othercit>1941</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Hill, Robert R.</origin>
+            <pubdate>1917</pubdate>
+            <title>Effects of grazing upon western yellow-pine reproduction in the national forests of Arizona and New Mexico</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>USDA Forest Service Bulletin</sername>
+              <issue>580</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service</publish>
+            </pubinfo>
+            <othercit>27 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Hill, Robert R.</origin>
+            <pubdate>1920</pubdate>
+            <title>Charting quadrats with a pantograph</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecology</sername>
+              <issue>1(4): 270-273</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.2307/1929561</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Hill, Robert R.</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Notes taken on Coconino trip with Grazing Examiner Murrell W. Talbot, Fall of 1921</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives</publish>
+            </pubinfo>
+            <othercit>1921; unpublished report; 20 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Laughlin, Daniel C.</origin>
+            <pubdate>2009</pubdate>
+            <title>Functional consequences of long-term vegetation dynamics</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Ph.D. dissertation</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>Northern Arizona University, School of Forestry</publish>
+            </pubinfo>
+            <othercit>186 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <pubdate>2008</pubdate>
+            <title>Forest and range research on the “Wild Bill Plots” (1927-2007)</title>
+            <geoform>conference proceedings</geoform>
+            <othercit>pages 281-289</othercit>
+            <lworkcit>
+              <citeinfo>
+                <origin>Olberding, Susan D. (tech. coords.)</origin>
+                <origin>Moore, Margaret M. (tech. coords.)</origin>
+                <pubdate>2008</pubdate>
+                <title>Fort Valley Experimental Forest-A Century of Research 1908-2008</title>
+                <geoform>conference proceedings</geoform>
+                <pubinfo>
+                  <pubplace>Fort Collins, CO</pubplace>
+                  <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station</publish>
+                </pubinfo>
+                <othercit>August 7-9, 2008; Flagstaff, AZ; 282 p.</othercit>
+                <onlink>https://research.fs.usda.gov/treesearch/32482</onlink>
+              </citeinfo>
+            </lworkcit>
+            <onlink>https://research.fs.usda.gov/treesearch/32517</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Fulé, Pete Z.</origin>
+            <pubdate>2011</pubdate>
+            <title>A century of increasing pine density and associated shifts in understory plant strategies</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecology</sername>
+              <issue>92(3): 556-561</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1890/09-2103.1</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Covington, W. Wallace</origin>
+            <origin>Fulé, Pete Z.</origin>
+            <pubdate>1999</pubdate>
+            <title>Reference conditions and ecological restoration: a southwestern ponderosa pine perspective</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecological Applications</sername>
+              <issue>9(4): 1266-1277</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1890/1051-0761(1999)009[1266:RCAERA]2.0.CO;2</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Covington, W. Wallace</origin>
+            <origin>Huffman, David W.</origin>
+            <origin>Crouse, Joseph E.</origin>
+            <pubdate>1999</pubdate>
+            <title>Eighty-three years of understory vegetation change in a northern Arizona ponderosa pine forest</title>
+            <geoform>oral presentation</geoform>
+            <serinfo>
+              <sername>Ecological Society of America</sername>
+              <issue>84th Annual Meeting</issue>
+            </serinfo>
+            <pubinfo>
+              <publish>Ecological Society of America</publish>
+            </pubinfo>
+            <othercit>Oral presentation; August 1999; Spokane, WA</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Huffman, David W.</origin>
+            <origin>Fulé, Pete Z.</origin>
+            <origin>Covington, W. Wallace</origin>
+            <origin>Crouse, Joseph E.</origin>
+            <pubdate>2004</pubdate>
+            <title>Comparison of historical and contemporary forest structure and composition on permanent plots in southwestern ponderosa pine forests</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Forest Science</sername>
+              <issue>50(2): 162-176</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1093/forestscience/50.2.162</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Pearson, Gustaf A.</origin>
+            <pubdate>1923</pubdate>
+            <title>Natural reproduction of western yellow pine in the Southwest</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>USDA Forest Service Bulletin</sername>
+              <issue>105</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service</publish>
+            </pubinfo>
+            <othercit>143 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Pearson, Gustaf A.</origin>
+            <pubdate>1931</pubdate>
+            <title>Forest types in the Southwest as determined by climate and soil</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>USDA Forest Service Technical Bulletin</sername>
+              <issue>247</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service</publish>
+            </pubinfo>
+            <othercit>144 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Pearson, Gustaf A.</origin>
+            <pubdate>1933</pubdate>
+            <title>A twenty year record of changes in an Arizona pine forest</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecology</sername>
+              <issue>14(3): 272-285</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.2307/1932798</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Pearson, Gustaf A.</origin>
+            <pubdate>1942</pubdate>
+            <title>Herbaceous vegetation a factor in natural regeneration of ponderosa pine in the Southwest</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecological Monographs</sername>
+              <issue>12(3): 315-338</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.2307/1943545</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Pearson, Gustaf A.</origin>
+            <pubdate>1950</pubdate>
+            <title>Management of ponderosa pine in the Southwest as developed by research and experimental practice</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Agriculture Monograph</sername>
+              <issue>6</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service</publish>
+            </pubinfo>
+            <othercit>218 p.</othercit>
+            <onlink>https://research.fs.usda.gov/treesearch/35042</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Partridge, Sade Perez</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Sánchez Meador, Andrew J.</origin>
+            <pubdate>2025</pubdate>
+            <title>Modeling size-based reproductive output to fill the gap in perennial graminoid demography</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Western North American Naturalist</sername>
+            </serinfo>
+            <othercit>[In review]</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Partridge, Sade Perez</origin>
+            <pubdate>2021</pubdate>
+            <title>The Fecundity Kernel: Reproductive analyses to fill the gap in perennial graminoid demography</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Master's Thesis</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>Northern Arizona University, School of Forestry</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Strahan, Robert T.</origin>
+            <pubdate>2013</pubdate>
+            <title>A functional trait perspective: Links to demography, predicting community assembly, and community-level response to long-term grazing</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>PhD Dissertation</sername>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>Northern Arizona University, School of Forestry</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Strahan, Robert T.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2015</pubdate>
+            <title>Long-term protection from heavy livestock grazing affects ponderosa pine understory composition and functional traits</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Rangeland Ecology and Management</sername>
+              <issue>68(3): 257-265</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1016/j.rama.2015.03.008</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Talbot, Murrell W.</origin>
+            <origin>Hill, Robert R.</origin>
+            <pubdate>Unpublished material</pubdate>
+            <title>Progress report on the range study plots on the Coconino National Forest comprising a description of project and digest of data</title>
+            <geoform>document</geoform>
+            <pubinfo>
+              <pubplace>Flagstaff, AZ</pubplace>
+              <publish>U.S. Department of Agriculture, Forest Service, Rocky Mountain Research Station, Fort Valley Experimental Forest Archives</publish>
+            </pubinfo>
+            <othercit>1923; 32 p.</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Woolsey, Theodore S.</origin>
+            <pubdate>1911</pubdate>
+            <title>Western yellow pine in Arizona and New Mexico</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>USDA Forest Service Bulletin</sername>
+              <issue>101</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>United States Government Printing Office</publish>
+            </pubinfo>
+          </citeinfo>
+        </methcite>
+      </method>
+      <method>
+        <methdesc>EXPERIMENTAL OR SAMPLING DESIGN
+		
+We relocated historical 1-m² quadrats (described above) and then remapped all vegetation on these 1-m² quadrats from 2002-2024. No statistical design was used for the original (early 1900) site nor quadrat locations; however, the original locations represent a variety of elevations, parent materials, and tree canopy cover within the ponderosa pine forests in the Flagstaff, AZ area.
+
+Permanent plots: We found the exact location of these original chart quadrats because their corners were permanently marked with angle iron or galvanized steel pipe and a metal tag. We relocated and then remapped the vegetation on 101, 1-m² quadrats between 2002-2024. We measured the forest structure surrounding each quadrat by establishing a 20 m x 20 m overstory tree plot around each 1-m² quadrat.
+
+Data collection period: The overall temporal extent was 2002-2024 (22 years), but the extent varies by study site, and when we actually re-located a site or a quadrat within a site (see \Data\Ancillary_Data_CSVs\Summarize_Quadrats_by_Year.csv).
+
+Hill Range Study Plots: 
+Quadrats were mapped periodically from 1912 until 1941, and annually from 2002-2024. Data are provided for 60 quadrats mapped annually between 2002-2024. The overstory tree data were collected in between 2003 and 2007 on 20 m x 20 m plots (Bakker 2005, Laughlin 2009, Strahan 2013).
+
+Fort Valley Experimental Forest Permanent Sample Plots:  
+Data are provided for 10, 1-m² quadrats, which were mapped annually from 2006 or 2007 until 2024. The overstory tree data were collected in 2002 on 20 m x 20 m plots (Sánchez Meador et al. 2009, 2010).
+
+Cooperrider and Cassidy Range Study Plots (or Wild Bill Quadrats): 
+Quadrats were mapped periodically from 1927-1938 and annually from 2006-2024. Data are provided for 29 quadrats mapped annually between 2006-2024. The overstory tree data were collected in 2007 on 20 m x 20 m plots (Laughlin 2009, Strahan 2013).  
+
+(Previously referenced methodology citations are provided above and new methodology citations provide below.)
+
+Additional information can be found in Moore et al. (2022, https://doi.org/10.1002/ecy.3661).</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Sánchez Meador, Andrew J.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Parysow, Pablo F.</origin>
+            <pubdate>2009</pubdate>
+            <title>108 years of change in spatial pattern following selective harvest of a ponderosa pine stand in northern Arizona</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Journal of Vegetation Science</sername>
+              <issue>20(1): 79-90</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1046/j.1365-2893.1999.00142.x-i1</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Sánchez Meador, Andrew J.</origin>
+            <origin>Parysow, Pablo F.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2010</pubdate>
+            <title>Historical stem mapped permanent plots increase precision of reconstructed reference conditions in ponderosa pine forests of northern Arizona</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Restoration Ecology</sername>
+              <issue>18(2): 224-234</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1111/j.1526-100x.2008.00442.x</onlink>
+          </citeinfo>
+        </methcite>
+        <methtype>Field</methtype>
+      </method>
+      <method>
+        <methdesc>CROSS-REFERENCED PUBLICATIONS
+
+Publications using data from the Hill Range Study Plots, the Fort Valley Experimental Forest (FVEF) Permanent Sample Plots, and the Cooperrider and Cassidy Range Study or “Wild Bill” Quadrats include the following: Arnold (1950), Bakker (2005), Bakker et al. (2002), Bakker and Moore (2007), Bakker et al. (2008), Cassidy (1937a, 1937b), Cooperrider and Cassidy (1937), Cooperrider (1938), Cooperrider and Cassidy (1939a, 1939b), Dowling (2015), Hill (1917), Laughlin (2009), Laughlin and Moore (2008), Laughlin et al. (2010), Laughlin et al. (2011), Laughlin et al. (2018), Laughlin et al. (2020), Moore et al. (1999), Pearson (1933), Pearson (1942), Partridge (2021), Perez Partridge et al. 2025), Strahan (2013), Strahan et al. (2015), and Talbot and Hill (1923), Atkins et al. (2025), Atkins et al. (2024), Mitchell et al. (2023) and Atkins et al. (2023).
+
+(Previously referenced methodology citations are provided above and new methodology citations provide below.)
+</methdesc>
+        <methcite>
+          <citeinfo>
+            <origin>Atkins, David H.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Gremer, Jennifer R.</origin>
+            <origin>Mitchell, Rachel M.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2023</pubdate>
+            <title>Functional traits predict demographic fitness in perennial graminoid species</title>
+            <geoform>conference proceeding</geoform>
+            <serinfo>
+              <sername>Ecological Society of America</sername>
+              <issue>August 6-10, 2023, Portland, OR</issue>
+            </serinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Atkins, David H.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2024</pubdate>
+            <title>Intraspecific trait variation mirrors global economic tradeoffs in plants</title>
+            <geoform>conference proceeding</geoform>
+            <serinfo>
+              <sername>Ecological Society of America</sername>
+              <issue>August 4-9, 2024, Long Beach, CA</issue>
+            </serinfo>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Atkins, David H.</origin>
+            <origin>Blackburn, R. D.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Sánchez Meador, Andrew J.</origin>
+            <pubdate>2025</pubdate>
+            <title>Handheld lidar sensors can accurately measure herbaceous biomass</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecosphere</sername>
+            </serinfo>
+            <othercit>[In review]</othercit>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2007</pubdate>
+            <title>Controls on vegetation structure in southwestern ponderosa pine forests, 1941 and 2004</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecology</sername>
+              <issue>88(9): 2305-2319</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1890/06-1775.1</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Leppert, Jessica J.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <origin>Sieg, Carolyn H.</origin>
+            <pubdate>2010</pubdate>
+            <title>A multi-trait test of the leaf-height-seed plant strategy scheme with 133 species from a pine forest flora</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Functional Ecology</sername>
+              <issue>24(3): 493-501</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1111/j.1365-2435.2009.01672.x</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Strahan, Robert T.</origin>
+            <origin>Adler, Peter B.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2018</pubdate>
+            <title>Survival rates indicate that correlations between community-weighted mean traits and environments can be unreliable estimates of the adaptive value of traits</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Ecology Letters</sername>
+              <issue>21(3): 411-421</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1111/ele.12914</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Gremer, Jennifer R.</origin>
+            <origin>Adler, Peter B.</origin>
+            <origin>Mitchell, Rachel M.</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2020</pubdate>
+            <title>The net effect of functional traits on fitness</title>
+            <geoform>journal article</geoform>
+            <serinfo>
+              <sername>Trends in ecology and evolution</sername>
+              <issue>35:1037-1047</issue>
+            </serinfo>
+            <onlink>https://doi.org/10.1016/j.tree.2020.07.010</onlink>
+          </citeinfo>
+        </methcite>
+        <methcite>
+          <citeinfo>
+            <origin>Mitchell, Rachel M.</origin>
+            <origin>Laughlin, Daniel C.</origin>
+            <origin>Gremer, Jennifer R.</origin>
+            <origin>Bakker, Jonathan D.</origin>
+            <origin>Atkins, David H.</origin>
+            <origin>Stears, Alice</origin>
+            <origin>Moore, Margaret M.</origin>
+            <pubdate>2023</pubdate>
+            <title>Negative demographic responses to climate in two dominant grasses over the last 60 years</title>
+            <geoform>conference proceeding</geoform>
+            <serinfo>
+              <sername>Ecological Society of America</sername>
+              <issue>August 6-10, 2023, Portland, OR</issue>
+            </serinfo>
+          </citeinfo>
+        </methcite>
+        <methtype>Field</methtype>
+      </method>
+      <method>
+        <methdesc>RESEARCH METHODS
+		
+Contemporary 1-m² quadrat map data (2002-2024) were collected in the field using a 1 m x 1 m PVC quadrat sampling frame. The PVC sampling frame is further subdivided into a grid with 25 cells, each 20 centimeters (cm) x 20 cm.  Each cell is mapped onto a transparency sheet with a grid system that is transcribed onto a paper data sheet. Each paper data sheet then is scanned at 600 dots per inch (dpi) and stored as a TIFF image file. This TIFF image is then uploaded as a raster image in ArcMap and used to digitize individual plant locations into shapefiles in ArcGIS. For a complete digitization protocol, contact Jeffrey S. Jenness.
+
+Instrumentation: Paper data sheets, scanners, computers running ArcGIS, Python, ArcObjects in VBA (Visual Basic for Applications) and R.
+
+Taxonomy and systematics: Plant scientific names and taxonomic authority is the Integrated Taxonomic Information System (ITIS) https://www.itis.gov/.
+
+Permit history: Vegetation sampling and mapping permits were obtained from the US Forest Service Coconino National Forest, Supervisor’s Office (20-year Special Use Permit granted in 2016) and from the USDA Forest Service, Rocky Mountain Research.
+</methdesc>
+        <methtype>Field</methtype>
+      </method>
+      <procstep>
+        <procdesc>For data through 2024, the original VBA and ArcObjects code modules, including 13 modules, 264 functions and 25,655 lines of code are available for download in both a Zenodo archive (https://doi.org/10.5281/zenodo.7581945) and a GitHub repository https://github.com/JeffJenness/Mapped_Chart_Quadrats_VBA_Code (and see README file). These functions require ArcMap with a VBA license to run.</procdesc>
+        <procdate>2025</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <overview>
+      <eaover>Below you will find a list and description of the files included in this data publication.
+
+DATA FILES - \Data\Ancillary_Data_CSVs (10 files)
+
+A description of the variables in each of these files is included in _Ancillary_Data_CSVs_Attributes.csv.
+
+1. _Ancillary_Data_CSVs_Attributes.csv: Comma-separated values (CSV) file containing a complete description of each variable found in the CSV files included in the Ancillary_Data_CSVs folder. 
+
+Columns include:
+Filename = name of file
+Order in file = order the variable is provided in the file (1 = column 1, 2 = column 2, etc.)
+Variable = name of variable
+Description = description of variable
+
+2. Basal_Cover_per_Species_by_Quadrat_and_Year.csv: CSV file containing the cumulative basal area in square centimeters, and the proportion of the 1-m² quadrat, covered by each plant species on each quadrat each year. 
+
+3. Cover_Species_Tabular_Version.csv: CSV file containing all perennial graminoids, along with three low-growing, mat-forming forbs (Eremogone fendleri (A. Gray) Ikonn. [formerly Arenaria fendleri A. Gray], Antennaria rosulata Rydb., and Antennaria parvifolia Nutt.) were mapped as polygons (i.e., ‘cover’ features). The UTM coordinates reflect the polygon centroid in the UTM Zone 12 coordinate system, projected from the North American Datum of 1983. The coordinates within the quadrat show the position within the 1-m² quadrat itself, and range between 0 and 1. These polygon centroid coordinates only reflect the center of mass of each polygon and do not necessarily lie inside the polygon. To see the true shape of the polygon, please refer to the actual polygon feature classes.
+
+4. Density_Species_Tabular_Version.csv: CSV file containing annual or perennial forbs, annual graminoids, subshrubs, shrubs, or tree seedlings are mapped as points in the field (i.e., ‘density’ features). Then, for display and analyses, these points are converted to 1 mm-radius circular polygons. The UTM coordinates reflect the polygon centroid in the UTM Zone 12 coordinate system, projected from the North American Datum of 1983. The coordinates within the quadrat show the position within the 1-m² quadrat itself, and range between 0 and 1.
+
+5. Overstory_Data_and_Quadrat_Locations.csv: CSV file containing quadrat coordinates in the NAD 1983 UTM Zone 12 coordinate system, tree canopy cover and tree basal area of tree species, soil parent material, and topographic information within the larger 20 m x 20 m plots surrounding each quadrat.
+
+6. Plant_Species_List.csv: CSV file containing a list all plant species observed within all quadrats over the temporal extent of the study, including 6-letter abbreviations for each species, a history of any species name changes that occurred during the study and other relevant comments.
+
+7. Quadrat_Locations_and_Data.csv: CSV file containing quadrat coordinates in UTM Zone 12 and latitude/longitude units, both projected from the North American Datum of 1983. Quadrat descriptors also include the site name, a “Site-Specific” name that gives additional information on where the quadrat can be found within the site, an “AKA” field listing an alternative quadrat naming system used by some studies, elevation in meters, an “Exclosure” value indicating whether the quadrat is within a livestock exclosure, and a “Note” field and “Comment” field describing various other attributes of the quadrat.
+
+8. Summarize_by_Site.csv: CSV file containing the total count of each individual species observed within all quadrats over the temporal extent of the study for each site.
+
+9. Summarize_by_Quadrat.csv: CSV file containing the total count of each individual species observed over the temporal extent of the study for each quadrat.
+
+10. Summarize_Quadrats_by_Year.csv: CSV file containing the year each quadrat was surveyed, along with summary statistics describing the proportion of years that quadrat was surveyed and the proportion of quadrats surveyed each year. If a quadrat was not surveyed in a particular year, this table explains why it was not surveyed that year. No quadrats were surveyed in 2008 due to time and funding constraints that year.
+
+
+
+DATA FILES - \Data\Ancillary_Data_GDB (1 file)
+
+A description of the variables in this file is included in \Data\Ancillary_Data_CSVs\_Ancillary_Data_CSVs_Attributes.csv.
+
+1. Ancillary_Data_GDB.gdb: Geodatabase containing data provided in CSV tables described above, formatted as file geodatabase feature classes and tables to facilitate use with ArcGIS software for these four entities: 1) Basal_Cover_per_Species_by_Quadrat_and_Year, 2) Overstory_Data_and_Quadrat_Locations, 3) Plant_Species_List, and 4) Quadrat_Locations_and_Data. 
+
+
+
+DATA FILES - \Data\Quadrat_Map_Image_Files (1878 files)
+
+1. Hill_Wild_Bill_Maps_2002_2024_wOCR.pdf: A text-searchable Portable Document Format (PDF) file containing exported map images of all digitized quadrats along with a table of contents. This PDF is especially useful for quickly stepping through all years for a single quadrat, and to visualize the evolving spatial arrangement of plant species.
+
+2-1878. \YYYY\LOCATION\LOC-#####_YYYY.tif: Tagged Image Format (TIF) files (1877) containing each individual exported map image of all digitized quadrats (LOCATION = location name, LOC = acronym for location name, YYYY = year of sample, and ##### = Quadrat ID number).
+
+
+
+DATA FILES - \Data\Quadrat_Spatial_Data (1 CSV file, 1 file geodatabase with 36 feature classes, and 36 shapefiles)
+
+A description of the variables in each of these files is included in _Quadrat_Spatial_Data_Attributes.csv. 
+
+1. _Quadrat_Spatial_Data_Attributes.csv: CSV file containing a complete description of each variable in the shapefile and GDB feature classes in this folder. (This information is also provided in the metadata embedded in each of these files  as well.)
+
+Columns include:
+Filename = name of file
+Order in file = order the variable is provided in the file (1 = column 1, 2 = column 2, etc.)
+Variable = name of variable
+Indexed = whether attribute field is indexed to facilitate queries in ArcGIS (True/False). When viewed in ArcGIS, these attribute fields have an asterisk (*) after the name.
+Description = description of variable
+
+2. Combined_by_Site.gdb: File geodatabase containing all mapped quadrat data, including file geodatabase versions of all shapefiles listed in 3-38 below. The file geodatabase format stores attribute data with more precision and accuracy than shapefiles, and is faster to work with in ArcGIS software, while the shapefile format works better for non-Esri software such as R.
+
+3. \Shapefiles\Cover_All.shp: Shapefile and associated files containing all records of plants recorded as Cover species, stored in a single shapefile to facilitate SQL queries on the full dataset.
+
+4. \Shapefiles\Density_All.shp: Shapefile and associated files containing all records of plants recorded as Density species, stored in a single shapefile to facilitate SQL queries on the full dataset.
+
+5-21. \Shapefiles\LOCATION_Cover.shp: Shapefiles (17) and associated files containing all Cover species recorded on all quadrats at that site (where LOCATION = location name).
+
+22-38: \Shapefiles\LOCATION_Density.shp: Shapefiles (17) and associated files containing all Density species recorded on all quadrats at that site (where LOCATION = location name).
+
+
+
+DATA FILES - \Data\Species_Shapefile_Extractions (1 CSV file and 32918 shapefiles)
+
+A description of the variables in each of these files is included in _Species_Shapefile_Extractions_Attributes.csv.
+
+1. _Species_Shapefile_Extractions_Attributes.csv: CSV file containing a complete description of each variable in the SHP files in this folder. (This information is also provided in the metadata embedded in each of these files as well.)
+
+2-32919. \SCI_NAME_2002-2024\LOCATION_2002-2024\Quadrat_#####_2002-2024\Quadrat_#####_YYYY.shp: Shapefiles (32918 shapefiles, comprised of 197448 individual files) containing the recorded observations of a single species (where SCI_NAME = scientific name of species, LOCATION = location name, 2002-2024 are the years surveyed, YYYY = year of sample, and ##### = Quadrat ID number). (NOTE: There are cases where the plot was surveyed in that year but no individuals of that species were observed. We create an empty feature class in these cases to distinguish between years where we know the species was not present, and years where the plot simply wasn't surveyed and therefore we don't know if the species was present.)
+</eaover>
+      <eadetcit>Moore, Margaret M.; Jenness, Jeffrey S.; Laughlin, Daniel C.; Strahan, Robert T.; Bakker, Jonathan D.; Dowling, Helen E.; Springer, Judith D. 2022. Cover and density of southwestern ponderosa pine understory plants in permanent chart quadrats (2002-2020). Ecology e3661. https://doi.org/10.1002/ecy.3661</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USDA Forest Service, Research and Development</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>240 West Prospect Road</address>
+          <city>Fort Collins</city>
+          <state>CO</state>
+          <postal>80526</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>see Contact Instructions</cntvoice>
+        <cntpos>Research Data Archivist</cntpos>
+        <cntinst>This contact information was current as of April 2024. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </distrib>
+    <resdesc>RDS-2021-0092-2</resdesc>
+    <distliab>Metadata documents have been reviewed for accuracy and completeness. Unless otherwise stated, all data and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. However, neither the author, the Archive, nor any part of the federal government can assure the reliability or suitability of these data for a particular purpose. The act of distribution shall not constitute any such warranty, and no responsibility is assumed for a user's application of these data or related materials.
+
+The metadata, data, or related materials may be updated without notification. If a user believes errors are present in the metadata, data or related materials, please use the information in (1) Identification Information: Point of Contact, (2) Metadata Reference: Metadata Contact, or (3) Distribution Information: Distributor to notify the author or the Archive of the issues.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>CSV</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Comma-separated values file</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0092-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>GDB</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Geodatabase</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0092-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>PDF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Portable Document Format file</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0092-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>SHP</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Shapefile</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0092-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>TIF</formname>
+          <formvern>see Format Specification</formvern>
+          <formspec>Tagged Image Format file (TIFF)</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://doi.org/10.2737/RDS-2021-0092-2</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20230217</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Jenness Enterprises</cntorg>
+          <cntper>Jeffrey S. Jenness</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>3020 N. Schevene Blvd.</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86004</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928-607-4638 or 928-526-4139</cntvoice>
+        <cntpos>GIS Analysis and Application Design</cntpos>
+        <cntemail>jeffj@jennessent.com</cntemail>
+        <cntinst>This contact information was current as of original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </metc>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>Northern Arizona University, School of Forestry</cntorg>
+          <cntper>Margaret M. Moore</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>Northern Arizona University</address>
+          <city>Flagstaff</city>
+          <state>AZ</state>
+          <postal>86011</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>928-523-7457</cntvoice>
+        <cntpos>Professor</cntpos>
+        <cntemail>Margaret.Moore@nau.edu</cntemail>
+        <cntinst>This contact information was current as of original publication date. For current information see Contact Us page on: https://doi.org/10.2737/RDS.</cntinst>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001.1-1999</metstdv>
+  </metainfo>
+</metadata>

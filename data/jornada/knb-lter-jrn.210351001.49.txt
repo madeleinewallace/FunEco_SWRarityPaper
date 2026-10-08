@@ -1,0 +1,520 @@
+
+  
+    
+      uid=JRN,o=LTER,dc=ecoinformatics,dc=org
+      all
+    
+    
+      public
+      read
+    
+  
+  
+    doi:10.6073/pasta/63bfa45df4858db674bf37b52ee5ff44
+    Plant Cover at Permanent Quad Locations on the Jornada Experimental Range, 1915-ongoing
+    
+      William Chapline
+      U.S. Forest Service
+    
+    
+      Kris Havstad
+      USDA-ARS Jornada Experimental Range
+      https://orcid.org/0000-0002-0133-8519
+    
+    
+      Brandon Bestelmeyer
+      USDA-ARS Jornada Experimental Range
+      https://orcid.org/0000-0001-5060-9955
+    
+    
+      Brandon Bestelmeyer
+      USDA-ARS Jornada Experimental Range
+      https://orcid.org/0000-0001-5060-9955
+      Current Principal Investigator
+    
+    2020-02-09
+    
+      
+  This ongoing data set contains basal cover of perennial grasses and
+  canopy cover of shrubs in 122 1m x 1m quadrats on the Jornada
+  Experimental Range in the northern extent of the Chihuahuan Desert of
+  New Mexico, USA. These quadrats were established to investigate
+  livestock grazing effects on plant community dynamics as well as
+  responses to variable climatic conditions over time. Vegetation
+  monitoring is carried out by charting the basal areas of perennial
+  grasses and canopy areas of shrubs within each quadrat. Quadrats were
+  established at different times, with start dates from 1915 to 1932.
+  Specific quadrat locations were selected for a variety of reasons, but
+  the overall intent was to represent varying plant community conditions
+  across the Jornada Experimental Range. From 1915 to 1924 charting was
+  done by dividing the quadrat frame into a decimeter grid using straps
+  and reproducing locations of plants on grid paper. From 1925 to 2016
+  charting was done using a pantograph. With few exceptions, quadrats
+  were charted until 1947, and a portion of the quadrats were charted
+  intermittently between 1947 and 1979. Sampling resumed again in 1995
+  and continues every 5-6 years. Charts are digitally scanned,
+  georeferenced, and chart features are digitally reproduced by hand.
+  This data set is not yet complete; charts are actively being processed
+  by Jornada Experimental Range staff and will be updated to this data
+  package as they become available. A companion data package of counts
+  of perennial forbs and subshrubs for each quadrat is also available
+  for this project (data package knb-lter-jrn.210351002).
+
+    
+    
+      Populations
+      Primary Production
+      Land Use and Land Cover Change
+      LTER Core Area
+    
+    
+      Vegetation Dynamics
+      core
+      JRN Dataset Keywords
+    
+    
+      Permanent Quadrats
+      Study 351
+      Jornada Project Names
+    
+    
+      JER
+      Jornada Place Names
+    
+    
+      plant communities
+      plant species
+      plant growth
+      plant functional types
+      plants
+      vascular plants
+      plant species composition
+      grazing
+      desertification
+      plant cover
+      basal area
+      LTER Controlled Vocabulary
+    
+    
+      arid grasslands
+      perennial grasses
+    
+    
+      
+  This information is released under the Creative Commons license -
+  Attribution - CC BY (https://creativecommons.org/licenses/by/4.0/).
+  The consumer of these data ("Data User" herein) is required
+  to cite it appropriately in any publication that results from its use.
+  The Data User should realize that these data may be actively used by
+  others for ongoing research and that coordination may be necessary to
+  prevent duplicate publication. The Data User is urged to contact the
+  authors of these data if any questions about methodology or results
+  occur. Where appropriate, the Data User is encouraged to consider
+  collaboration or co-authorship with the authors. The Data User should
+  realize that misinterpretation of data may occur if used out of
+  context of the original study. While substantial efforts are made to
+  ensure the accuracy of data and associated documentation, complete
+  accuracy of data sets cannot be guaranteed. All data are made
+  available "as is." The Data User should be aware, however,
+  that data are updated periodically and it is the responsibility of the
+  Data User to check for new versions of the data. The data authors and
+  the repository where these data were obtained shall not be liable for
+  damages resulting from any use or misinterpretation of the data. Thank
+  you.
+
+    
+    
+      
+        Jornada Experimental Range, Dona Any County, New Mexico, USA.  More detailed geographic information can be requested from the Data Manager.
+        
+          -106.926435
+          -106.528942
+          32.737108
+          32.466879
+        
+      
+      
+        
+          
+            1915-06-04
+          
+          
+            2016-12-15
+          
+        
+      
+    
+    
+      ongoing
+    
+    
+      Data Manager
+      Jornada Basin LTER
+      datamanager.jrn.lter@gmail.com
+    
+    
+      
+        
+          
+  Between 1915 and 1932, more than 100 1m x 1m quadrats were established
+  across the Jornada Experimental Range to document vegetation dynamics
+  in dominant grass species over time. Initially the research goal of
+  the project was to investigate livestock grazing effects on plant
+  community dynamics. The original sets of quadrats were selected to
+  represent the major grassland types in the area. Most were placed at
+  0.8 km intervals along transects radiating from permanent watering
+  points for livestock. Grassland types represented were (primary
+  dominants) black grama, tobosa, burrograss, three-awn, blue grama, and
+  a mixed grass type. The corners of each quadrat are permanently marked
+  on the ground with angle iron stakes or nails.
+
+          
+  Vegetation in the quadrats is monitored by charting. A decimeter grid
+  was used for charting until 1925, and a pantograph has been used
+  thereafter. Charting involves 1) drawing the scaled-down locations of
+  the four corners of the 1m x 1m quadrat on a sheet of paper, 2)
+  drawing the relative locations of the center of live perennial forbs
+  and live subshrubs contained in the quadrat, 3) drawing the basal
+  areas of live perennial grasses contained in the quadrat relative to
+  the four corners, 4) drawing the canopy areas of live shrubs contained
+  in or overhanging the quadrat relative to the four corners, and 5)
+  labeling each item to species, genus, or functional group, whichever
+  can be most fully resolved. In this way, each chart serves as a map of
+  each quadrat that can be georeferenced and spatially projected. In
+  several cases grasses were also measured as a point, particularly if
+  they could not be identified to species, and are not included in this
+  data set.
+
+          
+  With few exceptions, all 122 quadrats were charted until 1947, and a
+  portion of the quadrats were charted intermittently between 1947 and
+  1979. Interest in the project was reinvigorated in 1995, during which
+  time 112 quadrats were relocated, charted, and documented with GPS
+  coordinates. An additional 10 quadrats have been located subsequently.
+  Since 1995 sampling has occurred every 5-6 years.
+
+          
+  Maintaining a definitive record of quadrat sampling and charts has
+  been challenging due to the long-term nature of the project including
+  changeover of management personnel, periodic abandonment and renewed
+  interest, plot corners being buried or locations being lost, charts
+  having gone missing or taken by researchers, changes in taxonomic
+  classifications, protocols and technology, and incomplete efforts to
+  compile the data set. At the start of the project, directions for
+  locating each quadrat were based on features in the landscape that
+  sometimes did not persist. GPS documentation began in 1995.
+  Unfortunately, the locations of some quadrats have been lost; however,
+  this data package contains only quadrats whose locations are currently
+  known.
+
+          
+  Field charts are digitally scanned into high resolution TIFF files.
+  Scans are then digitized in ArGIS software. Perennial forb and
+  subshrub location features are recorded in a point shapefile, while
+  perennial grass basal cover features and shrub canopy cover features
+  are recorded in a polygon shapefile. Perennial grass stolon features,
+  if they exist, are recorded in a line shapefile. Known locations of
+  plot corners are used to spatially project each shapefile, and the
+  shapefiles are stored in a geodatabase. Attribute tables for each
+  geodatabase layer are extracted, compiled, and error-checked to
+  produce the final data tables. This data set is not yet complete;
+  charts are actively being processed by Jornada Experimental Range
+  staff and will be updated to this data package as they become
+  available. See data package knb-lter-jrn.210351002 for perennial forb
+  and subshrub count data.
+
+        
+      
+    
+    
+      Basal Cover of Perennial Grasses and Canopy Cover of Shrubs at Permanent Quadrat Locations on the Jornada Experimental Range (Jornada Basin LTER), 1915-ongoing
+      Basal Cover of Perennial Grasses and Canopy Cover of Shrubs at Permanent Quadrat Locations on the Jornada Experimental Range (Jornada Basin LTER), 1915-ongoing
+      
+        Jornada_permanent_quads_cover.csv
+        14600416
+        57822019ae4490145f6fcb4ef365858f
+        
+          
+            1
+            \r\n
+            column
+            
+              ,
+            
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-jrn/210351001/49/c93e2a3a593d660fba6e4d7295544638
+          
+        
+      
+      
+        
+          quadrat
+          name of quadrat
+          string
+          
+            
+              
+                
+                  name of quadrat
+                
+              
+            
+          
+        
+        
+          year
+          year quadrat was charted
+          date
+          
+            
+              YYYY
+              
+            
+          
+        
+        
+          month
+          month quadrat was charted
+          date
+          
+            
+              MM
+              
+            
+          
+          
+            .
+            month not recorded
+          
+        
+        
+          day
+          day quadrat was charted
+          date
+          
+            
+              DD
+              
+            
+          
+          
+            .
+            year not recorded
+          
+        
+        
+          project_year
+          year at beginning of project year (May to April)
+          date
+          
+            
+              YYYY
+              
+            
+          
+        
+        
+          USDA_code
+          USDA plant code (http://plants.usda.gov)
+          string
+          
+            
+              
+                
+                  USDA plant code (http://plants.usda.gov)
+                
+              
+            
+          
+          
+            .
+            no cover present OR chart has not been processed
+          
+        
+        
+          scientific_name
+          species binomial
+          string
+          
+            
+              
+                
+                  species binomial
+                
+              
+            
+          
+          
+            .
+            species binomial is not known or not applicable
+          
+        
+        
+          duration
+          growth habit
+          string
+          
+            
+              
+                
+                  
+                    P
+                    perennial
+                  
+                  
+                    AP
+                    annual or perennial
+                  
+                
+              
+            
+          
+          
+            .
+            duration is not known or not applicable
+          
+        
+        
+          form
+          growth form
+          string
+          
+            
+              
+                
+                  
+                    grass
+                    grass
+                  
+                  
+                    shrub
+                    shrub
+                  
+                
+              
+            
+          
+          
+            .
+            form is not known or not applicable
+          
+        
+        
+          area
+          basal area for grasses, and canopy area for shrubs
+          float
+          
+            
+              
+                squareMeter
+              
+              
+                real
+                
+                  0
+                  1.01
+                
+              
+            
+          
+          
+            .
+            no cover present OR chart has not been processed
+          
+        
+        
+          perimeter
+          perimeter of basal area of grasses, and canopy perimeter of shrubs
+          float
+          
+            
+              
+                meter
+              
+              
+                real
+                
+                  0.01
+                  7.49
+                
+              
+            
+          
+          
+            .
+            no cover present OR chart has not been processed
+          
+        
+        
+          cover_status
+          indicates whether perennial forbs/subshrubs are present, not present, or chart has yet to be processed
+          string
+          
+            
+              
+                
+                  
+                    PG/Shr present
+                    basal cover of perennial grasses and/or canopy cover of shrubs is/are present in quadrat
+                  
+                  
+                    unknown
+                    chart has not been processed yet
+                  
+                  
+                    no PG/Shr present
+                    no basal cover of perennial grasses nor canopy cover of shrubs occurs in quadrat
+                  
+                
+              
+            
+          
+        
+        
+          chart_status
+          indicated whether chart has been processed or not
+          string
+          
+            
+              
+                
+                  
+                    processed
+                    chart has been processed
+                  
+                  
+                    unprocessed
+                    chart has not been processed
+                  
+                
+              
+            
+          
+        
+      
+      148637
+    
+    
+      A map of the Permanent Quadrats locations on the Jornada Experimental Range
+      A map of the Permanent Quadrats locations on the Jornada Experimental Range
+      
+        JER_Quadrats_map.jpg
+        4890640
+        99566debbbcb4cbaa3c217b2733ebbbd
+        
+          
+            unknown
+          
+        
+        
+          
+            https://pasta.lternet.edu/package/data/eml/knb-lter-jrn/210351001/49/6bd6f2b6dc4b4016adc4b226f6504c8c
+          
+        
+      
+      unknown
+    
+  

@@ -1,0 +1,202 @@
+Filename,Order in file,Variable,Description
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,1,Site,Site name of quadrat
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,2,Quadrat,Quadrat name or number
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,3,Year,Year of observation
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,4,Type,Whether observation is type Density or Cover
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,5,Species,Genus and species
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,6,Number_Observations,Number of times this species was recorded in this quadrat this year
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,7,Area_Sq_Cm,"Area of the quadrat covered by this species in this quadrat this year, in square centimeters"
+Basal_Cover_per_Species_by_Quadrat_and_Year.csv,8,Proportion_Quadrat,Proportion of the quadrat covered by this species in this quadrat this year (between 0 and 100%)
+Cover_Species_Tabular_Version.csv,1,species,Genus and species
+Cover_Species_Tabular_Version.csv,2,Site,Site name of quadrat
+Cover_Species_Tabular_Version.csv,3,Quadrat,Quadrat name or number
+Cover_Species_Tabular_Version.csv,4,Year,Year of this observation
+Cover_Species_Tabular_Version.csv,5,Easting_NAD83_UTM_Zone_12,"X-coordinate (Easting) of plant polygon centroid, in UTM Zone 12 coordinates, NAD 1983 Datum"
+Cover_Species_Tabular_Version.csv,6,Northing_NAD83_UTM_Zone_12,"Y-coordinate (Northing) of plant polygon centroid, in UTM Zone 12 coordinates, NAD 1983 Datum"
+Cover_Species_Tabular_Version.csv,7,X_Coord_In_Quadrat,"X-coordinate of plant polygon centroid, in quadrat local coordinates. Values range between 0 and 1 meters (m)."
+Cover_Species_Tabular_Version.csv,8,Y_Coord_In_Quadrat,"Y-coordinate of plant polygon centroid, in quadrat local coordinates.  Values range between 0 m and 1 m."
+Cover_Species_Tabular_Version.csv,9,Sq_Cm,"Area covered by this species in this observation, in square centimeters"
+Density_Species_Tabular_Version.csv,1,species,Genus and species
+Density_Species_Tabular_Version.csv,2,Site,Site name of quadrat
+Density_Species_Tabular_Version.csv,3,Quadrat,Quadrat name or number
+Density_Species_Tabular_Version.csv,4,Year,Year of this observation
+Density_Species_Tabular_Version.csv,5,Easting_NAD83_UTM_Zone_12,"X-coordinate (Easting) of plant polygon centroid, in UTM Zone 12 coordinates, NAD 1983 Datum"
+Density_Species_Tabular_Version.csv,6,Northing_NAD83_UTM_Zone_12,"Y-coordinate (Northing) of plant polygon centroid, in UTM Zone 12 coordinates, NAD 1983 Datum"
+Density_Species_Tabular_Version.csv,7,X_Coord_In_Quadrat,"X-coordinate of plant polygon centroid, in quadrat local coordinates.  Values range between 0 m and 1 m."
+Density_Species_Tabular_Version.csv,8,Y_Coord_In_Quadrat,"Y-coordinate of plant polygon centroid, in quadrat local coordinates.  Values range between 0 m and 1 m."
+Density_Species_Tabular_Version.csv,9,Sq_Cm,"Area covered by this species in this observation, in square centimeters"
+Overstory_Data_and_Quadrat_Locations.csv,1,Site,Site name of quadrat
+Overstory_Data_and_Quadrat_Locations.csv,2,Quadrat,Quadrat name of number
+Overstory_Data_and_Quadrat_Locations.csv,3,Tree_Perc_Canopy_Cover,Percent Canopy Cover [between 1 and 100] of overstory trees within 20m x 20m overstory plots surrounding quadrat
+Overstory_Data_and_Quadrat_Locations.csv,4,Tree_Basal_Area_per_Ha,Basal Area per Hectare of overstory trees within 20 m x 20 m overstory plots surrounding quadrat
+Overstory_Data_and_Quadrat_Locations.csv,5,Parent_Material_Class,Soil parent material; either 'Sed' (for sedimentary) or 'Bas' (for basalt)
+Overstory_Data_and_Quadrat_Locations.csv,6,Elevation_m,"Elevation of plot center, in meters, calculated using bilinear interpolation from 30 m DEM downloaded from USGS 3D Elevation Program (3DEP)"
+Overstory_Data_and_Quadrat_Locations.csv,7,Aspect,"Bearing in direction of steepest slope at plot center, in degrees"
+Overstory_Data_and_Quadrat_Locations.csv,8,Slope_Percent,"Slope at plot center, in percent"
+Overstory_Data_and_Quadrat_Locations.csv,9,Easting_NAD_1983_UTM_12,"Plot center Easting (X) coordinate, in UTM Zone 12, projected from NAD 1983"
+Overstory_Data_and_Quadrat_Locations.csv,10,Northing_NAD_1983_UTM_12,"Plot center Northing (Y) coordinate, in UTM Zone 12, projected from NAD 1983"
+Overstory_Data_and_Quadrat_Locations.csv,11,Year_Canopy_Measured,Year canopy was measured
+Overstory_Data_and_Quadrat_Locations.csv,12,Comment,Comment describing various aspects of quadrat
+Plant_Species_List.csv,1,Species,Genus and species
+Plant_Species_List.csv,2,Abbreviation,"6-Letter abbreviation for plant species, consisting of first 3 letters of Genus name and first three letters of Species name"
+Plant_Species_List.csv,3,Type,"Type of feature (Cover = polygon feature for perennial graminoids or mat forming forb; Density = point feature for annual and perennial forbs, annual graminoids or tree seedlings)"
+Plant_Species_List.csv,4,Notes,Additional known information about species
+Quadrat_Locations_and_Data.csv,1,Site,Site name of quadrat
+Quadrat_Locations_and_Data.csv,2,Site_Specific,"Site name of quadrat, with additional details about the sub-region within the larger site"
+Quadrat_Locations_and_Data.csv,3,Quadrat,Quadrat name or number
+Quadrat_Locations_and_Data.csv,4,AKA,Alternate quadrat naming system
+Quadrat_Locations_and_Data.csv,5,Easting_NAD_1983_UTM_12,"Plot center Easting (X) coordinate, in UTM Zone 12, projected from NAD 1983"
+Quadrat_Locations_and_Data.csv,6,Northing_NAD_1983_UTM_12,"Plot center Northing (Y) coordinate, in UTM Zone 12, projected from NAD 1983"
+Quadrat_Locations_and_Data.csv,7,Latitude_NAD_1983,"Plot center Latitude (Y) coordinate, in the North American Datum of 1983"
+Quadrat_Locations_and_Data.csv,8,Longitude_NAD_1983,"Plot center Longitude (X) coordinate, in the North American Datum of 1983"
+Quadrat_Locations_and_Data.csv,9,Elevation_m,"Elevation of plot center, in meters, calculated using bilinear interpolation from 30m DEM downloaded from USGS 3D Elevation Program (3DEP)"
+Quadrat_Locations_and_Data.csv,10,Exclosure,Comment indicating whether quadrat was inside or outside of a fenced cattle exclosure
+Quadrat_Locations_and_Data.csv,11,Note,Notes describing various aspects of quadrat
+Quadrat_Locations_and_Data.csv,12,Comment,Comments describing various aspects of quadrat
+Summarize_by_Site.csv,1,Species Name,Genus and species
+Summarize_by_Site.csv,2,Big Fill,Count of Each Species Observed at Big Fill Site
+Summarize_by_Site.csv,3,Black Springs,Count of Each Species Observed at Black Springs Site
+Summarize_by_Site.csv,4,FS 9009H Road - Old Exclosure,Count of Each Species Observed at FS 9009H Road - Old Exclosure Site
+Summarize_by_Site.csv,5,Fry Park,Count of Each Species Observed at Fry Park Site
+Summarize_by_Site.csv,6,Ft Valley - COC-S1A,Count of Each Species Observed at Ft. Valley - COC-S1A site
+Summarize_by_Site.csv,7,Ft Valley - COC-S1B,Count of Each Species Observed at Ft. Valley - COC-S1B site
+Summarize_by_Site.csv,8,Ft Valley - COC-S2A,Count of Each Species Observed at Ft. Valley - COC-S2A site
+Summarize_by_Site.csv,9,Ft Valley - COC-S2B,Count of Each Species Observed at Ft. Valley - COC-S2B site
+Summarize_by_Site.csv,10,Ft Valley - COC-S3A,Count of Each Species Observed at Ft. Valley - COC-S3A site
+Summarize_by_Site.csv,11,Reese Tank,Count of Each Species Observed at Reese Tank Site
+Summarize_by_Site.csv,12,Rogers Lake,Count of Each Species Observed at Rogers Lake Site
+Summarize_by_Site.csv,13,Wild Bill - Dispersed Quadrats,Count of Each Species Observed at Wild Bill - Dispersed Quadrats Site
+Summarize_by_Site.csv,14,Wild Bill - Government Knolls,Count of Each Species Observed at Wild Bill - Government Knolls Site
+Summarize_by_Site.csv,15,Wild Bill - Kendrick Panel,Count of Each Species Observed at Wild Bill - Kendrick Panel Site
+Summarize_by_Site.csv,16,Wild Bill - SI Panel,Count of Each Species Observed at Wild Bill - SI Panel Site
+Summarize_by_Site.csv,17,Wild Bill - Wild Bill Panel,Count of Each Species Observed at Wild Bill - Wild Bill Panel Site
+Summarize_by_Site.csv,18,Wild Bill - Willaha,Count of Each Species Observed at Wild Bill - Willaha Site
+Summarize_Quadrats_by_Year.csv,1,Quadrat,Quadrat name or number
+Summarize_Quadrats_by_Year.csv,2,2002,Quadrats Surveyed in 2002 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,3,2003,Quadrats Surveyed in 2003 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,4,2004,Quadrats Surveyed in 2004 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,5,2005,Quadrats Surveyed in 2005 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,6,2006,Quadrats Surveyed in 2006 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,7,2007,Quadrats Surveyed in 2007 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,8,2008,Quadrats Surveyed in 2008 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,9,2009,Quadrats Surveyed in 2009 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,10,2010,Quadrats Surveyed in 2010 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,11,2011,Quadrats Surveyed in 2011 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,12,2012,Quadrats Surveyed in 2012 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,13,2013,Quadrats Surveyed in 2013 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,14,2014,Quadrats Surveyed in 2014 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,15,2015,Quadrats Surveyed in 2015 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,16,2016,Quadrats Surveyed in 2016 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,17,2017,Quadrats Surveyed in 2017 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,18,2018,Quadrats Surveyed in 2018 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,19,2019,Quadrats Surveyed in 2019 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,20,2020,Quadrats Surveyed in 2020 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,21,2021,Quadrats Surveyed in 2021 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,22,2022,Quadrats Surveyed in 2022 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,23,2023,Quadrats Surveyed in 2023 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,24,2024,Quadrats Surveyed in 2024 ('X' means surveyed)
+Summarize_Quadrats_by_Year.csv,25,Years_Surveyed,Total Number of Years Each Quadrat Surveyed
+Summarize_Quadrats_by_Year.csv,26,Proportion,Proportion of Years (Total Number of Years / 23) Each Quadrat Surveyed
+Summarize_Quadrats_by_Year.csv,27,Comments,Explanation of why a quadrat may not have been surveyed in particular years
+Summarize_by_Quadrat.csv,1,Species Name,Genus and Species
+Summarize_by_Quadrat.csv,1,Big Fill: Quadrat 11999,Count of Each Species Observed at Quadrat Big Fill: Quadrat 11999
+Summarize_by_Quadrat.csv,2,Big Fill: Quadrat 12000,Count of Each Species Observed at Quadrat Big Fill: Quadrat 12000
+Summarize_by_Quadrat.csv,3,Big Fill: Quadrat 16 / 30716,Count of Each Species Observed at Quadrat Big Fill: Quadrat 16 / 30716
+Summarize_by_Quadrat.csv,4,Big Fill: Quadrat 18 / 30718,Count of Each Species Observed at Quadrat Big Fill: Quadrat 18 / 30718
+Summarize_by_Quadrat.csv,5,Big Fill: Quadrat 30711,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30711
+Summarize_by_Quadrat.csv,6,Big Fill: Quadrat 30712,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30712
+Summarize_by_Quadrat.csv,7,Big Fill: Quadrat 30713,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30713
+Summarize_by_Quadrat.csv,8,Big Fill: Quadrat 30714,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30714
+Summarize_by_Quadrat.csv,9,Big Fill: Quadrat 30715,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30715
+Summarize_by_Quadrat.csv,10,Big Fill: Quadrat 30717,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30717
+Summarize_by_Quadrat.csv,11,Big Fill: Quadrat 30719,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30719
+Summarize_by_Quadrat.csv,12,Big Fill: Quadrat 30720,Count of Each Species Observed at Quadrat Big Fill: Quadrat 30720
+Summarize_by_Quadrat.csv,13,Black Springs: Quadrat 26345,Count of Each Species Observed at Quadrat Black Springs: Quadrat 26345
+Summarize_by_Quadrat.csv,14,Black Springs: Quadrat 26346,Count of Each Species Observed at Quadrat Black Springs: Quadrat 26346
+Summarize_by_Quadrat.csv,15,Black Springs: Quadrat 26347,Count of Each Species Observed at Quadrat Black Springs: Quadrat 26347
+Summarize_by_Quadrat.csv,16,Black Springs: Quadrat 26348,Count of Each Species Observed at Quadrat Black Springs: Quadrat 26348
+Summarize_by_Quadrat.csv,17,Black Springs: Quadrat 30741,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30741
+Summarize_by_Quadrat.csv,18,Black Springs: Quadrat 30742,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30742
+Summarize_by_Quadrat.csv,19,Black Springs: Quadrat 30743,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30743
+Summarize_by_Quadrat.csv,20,Black Springs: Quadrat 30744,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30744
+Summarize_by_Quadrat.csv,21,Black Springs: Quadrat 30745,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30745
+Summarize_by_Quadrat.csv,22,Black Springs: Quadrat 30746,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30746
+Summarize_by_Quadrat.csv,23,Black Springs: Quadrat 30747,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30747
+Summarize_by_Quadrat.csv,24,Black Springs: Quadrat 30748,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30748
+Summarize_by_Quadrat.csv,25,Black Springs: Quadrat 30749,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30749
+Summarize_by_Quadrat.csv,26,Black Springs: Quadrat 30750,Count of Each Species Observed at Quadrat Black Springs: Quadrat 30750
+Summarize_by_Quadrat.csv,27,Black Springs: Quadrat 46,Count of Each Species Observed at Quadrat Black Springs: Quadrat 46
+Summarize_by_Quadrat.csv,28,FS 9009H Road - Old Exclosure: Quadrat 494,Count of Each Species Observed at Quadrat FS 9009H Road - Old Exclosure: Quadrat 494
+Summarize_by_Quadrat.csv,29,FS 9009H Road - Old Exclosure: Quadrat 498,Count of Each Species Observed at Quadrat FS 9009H Road - Old Exclosure: Quadrat 498
+Summarize_by_Quadrat.csv,30,Fry Park: Quadrat 30731,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30731
+Summarize_by_Quadrat.csv,31,Fry Park: Quadrat 30732,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30732
+Summarize_by_Quadrat.csv,32,Fry Park: Quadrat 30733,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30733
+Summarize_by_Quadrat.csv,33,Fry Park: Quadrat 30734,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30734
+Summarize_by_Quadrat.csv,34,Fry Park: Quadrat 30735,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30735
+Summarize_by_Quadrat.csv,35,Fry Park: Quadrat 30736,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30736
+Summarize_by_Quadrat.csv,36,Fry Park: Quadrat 30737,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30737
+Summarize_by_Quadrat.csv,37,Fry Park: Quadrat 30738,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30738
+Summarize_by_Quadrat.csv,38,Fry Park: Quadrat 30739,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30739
+Summarize_by_Quadrat.csv,39,Fry Park: Quadrat 30740,Count of Each Species Observed at Quadrat Fry Park: Quadrat 30740
+Summarize_by_Quadrat.csv,40,Ft Valley - COC-S1A: Quadrat 21114,Count of Each Species Observed at Quadrat Ft Valley - COC-S1A: Quadrat 21114
+Summarize_by_Quadrat.csv,41,Ft Valley - COC-S1A: Quadrat 21174,Count of Each Species Observed at Quadrat Ft Valley - COC-S1A: Quadrat 21174
+Summarize_by_Quadrat.csv,42,Ft Valley - COC-S1B: Quadrat 21262,Count of Each Species Observed at Quadrat Ft Valley - COC-S1B: Quadrat 21262
+Summarize_by_Quadrat.csv,43,Ft Valley - COC-S1B: Quadrat 21269,Count of Each Species Observed at Quadrat Ft Valley - COC-S1B: Quadrat 21269
+Summarize_by_Quadrat.csv,44,Ft Valley - COC-S2A: Quadrat 22126,Count of Each Species Observed at Quadrat Ft Valley - COC-S2A: Quadrat 22126
+Summarize_by_Quadrat.csv,45,Ft Valley - COC-S2A: Quadrat 22156,Count of Each Species Observed at Quadrat Ft Valley - COC-S2A: Quadrat 22156
+Summarize_by_Quadrat.csv,46,Ft Valley - COC-S2B: Quadrat 22241,Count of Each Species Observed at Quadrat Ft Valley - COC-S2B: Quadrat 22241
+Summarize_by_Quadrat.csv,47,Ft Valley - COC-S2B: Quadrat 22244,Count of Each Species Observed at Quadrat Ft Valley - COC-S2B: Quadrat 22244
+Summarize_by_Quadrat.csv,48,Ft Valley - COC-S3A: Quadrat 23155,Count of Each Species Observed at Quadrat Ft Valley - COC-S3A: Quadrat 23155
+Summarize_by_Quadrat.csv,49,Ft Valley - COC-S3A: Quadrat 23159,Count of Each Species Observed at Quadrat Ft Valley - COC-S3A: Quadrat 23159
+Summarize_by_Quadrat.csv,50,Reese Tank: Quadrat 10 / 30710,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 10 / 30710
+Summarize_by_Quadrat.csv,51,Reese Tank: Quadrat 30701,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30701
+Summarize_by_Quadrat.csv,52,Reese Tank: Quadrat 30702,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30702
+Summarize_by_Quadrat.csv,53,Reese Tank: Quadrat 30703,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30703
+Summarize_by_Quadrat.csv,54,Reese Tank: Quadrat 30704,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30704
+Summarize_by_Quadrat.csv,55,Reese Tank: Quadrat 30705,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30705
+Summarize_by_Quadrat.csv,56,Reese Tank: Quadrat 30706,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30706
+Summarize_by_Quadrat.csv,57,Reese Tank: Quadrat 30707,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30707
+Summarize_by_Quadrat.csv,58,Reese Tank: Quadrat 30709,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 30709
+Summarize_by_Quadrat.csv,59,Reese Tank: Quadrat 8 / 30708,Count of Each Species Observed at Quadrat Reese Tank: Quadrat 8 / 30708
+Summarize_by_Quadrat.csv,60,Rogers Lake: Quadrat 26339,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 26339
+Summarize_by_Quadrat.csv,61,Rogers Lake: Quadrat 26340,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 26340
+Summarize_by_Quadrat.csv,62,Rogers Lake: Quadrat 26369,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 26369
+Summarize_by_Quadrat.csv,63,Rogers Lake: Quadrat 26370,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 26370
+Summarize_by_Quadrat.csv,64,Rogers Lake: Quadrat 30721,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30721
+Summarize_by_Quadrat.csv,65,Rogers Lake: Quadrat 30722,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30722
+Summarize_by_Quadrat.csv,66,Rogers Lake: Quadrat 30723,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30723
+Summarize_by_Quadrat.csv,67,Rogers Lake: Quadrat 30724,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30724
+Summarize_by_Quadrat.csv,68,Rogers Lake: Quadrat 30725,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30725
+Summarize_by_Quadrat.csv,69,Rogers Lake: Quadrat 30726,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30726
+Summarize_by_Quadrat.csv,70,Rogers Lake: Quadrat 30727,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30727
+Summarize_by_Quadrat.csv,71,Rogers Lake: Quadrat 30728,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30728
+Summarize_by_Quadrat.csv,72,Rogers Lake: Quadrat 30729,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30729
+Summarize_by_Quadrat.csv,73,Rogers Lake: Quadrat 30730,Count of Each Species Observed at Quadrat Rogers Lake: Quadrat 30730
+Summarize_by_Quadrat.csv,74,Wild Bill - Dispersed Quadrats: Quadrat 122,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 122
+Summarize_by_Quadrat.csv,75,Wild Bill - Dispersed Quadrats: Quadrat 123,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 123
+Summarize_by_Quadrat.csv,76,Wild Bill - Dispersed Quadrats: Quadrat 124,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 124
+Summarize_by_Quadrat.csv,77,Wild Bill - Dispersed Quadrats: Quadrat 125,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 125
+Summarize_by_Quadrat.csv,78,Wild Bill - Dispersed Quadrats: Quadrat 29003,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 29003
+Summarize_by_Quadrat.csv,79,Wild Bill - Dispersed Quadrats: Quadrat 29004,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 29004
+Summarize_by_Quadrat.csv,80,Wild Bill - Dispersed Quadrats: Quadrat 29016,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 29016
+Summarize_by_Quadrat.csv,81,Wild Bill - Dispersed Quadrats: Quadrat 29017,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 29017
+Summarize_by_Quadrat.csv,82,Wild Bill - Dispersed Quadrats: Quadrat 29025,Count of Each Species Observed at Quadrat Wild Bill - Dispersed Quadrats: Quadrat 29025
+Summarize_by_Quadrat.csv,83,Wild Bill - Government Knolls: Quadrat 101,Count of Each Species Observed at Quadrat Wild Bill - Government Knolls: Quadrat 101
+Summarize_by_Quadrat.csv,84,Wild Bill - Government Knolls: Quadrat 102,Count of Each Species Observed at Quadrat Wild Bill - Government Knolls: Quadrat 102
+Summarize_by_Quadrat.csv,85,Wild Bill - Government Knolls: Quadrat 103,Count of Each Species Observed at Quadrat Wild Bill - Government Knolls: Quadrat 103
+Summarize_by_Quadrat.csv,86,Wild Bill - Government Knolls: Quadrat 104,Count of Each Species Observed at Quadrat Wild Bill - Government Knolls: Quadrat 104
+Summarize_by_Quadrat.csv,87,Wild Bill - Government Knolls: Quadrat 105,Count of Each Species Observed at Quadrat Wild Bill - Government Knolls: Quadrat 105
+Summarize_by_Quadrat.csv,88,Wild Bill - Government Knolls: Quadrat 106,Count of Each Species Observed at Quadrat Wild Bill - Government Knolls: Quadrat 106
+Summarize_by_Quadrat.csv,89,Wild Bill - Kendrick Panel: Quadrat 107,Count of Each Species Observed at Quadrat Wild Bill - Kendrick Panel: Quadrat 107
+Summarize_by_Quadrat.csv,90,Wild Bill - Kendrick Panel: Quadrat 108,Count of Each Species Observed at Quadrat Wild Bill - Kendrick Panel: Quadrat 108
+Summarize_by_Quadrat.csv,91,Wild Bill - Kendrick Panel: Quadrat 109,Count of Each Species Observed at Quadrat Wild Bill - Kendrick Panel: Quadrat 109
+Summarize_by_Quadrat.csv,92,Wild Bill - Kendrick Panel: Quadrat 110,Count of Each Species Observed at Quadrat Wild Bill - Kendrick Panel: Quadrat 110
+Summarize_by_Quadrat.csv,93,Wild Bill - SI Panel: Quadrat 115,Count of Each Species Observed at Quadrat Wild Bill - SI Panel: Quadrat 115
+Summarize_by_Quadrat.csv,94,Wild Bill - SI Panel: Quadrat 120,Count of Each Species Observed at Quadrat Wild Bill - SI Panel: Quadrat 120
+Summarize_by_Quadrat.csv,95,Wild Bill - SI Panel: Quadrat 121,Count of Each Species Observed at Quadrat Wild Bill - SI Panel: Quadrat 121
+Summarize_by_Quadrat.csv,96,Wild Bill - Wild Bill Panel: Quadrat 114,Count of Each Species Observed at Quadrat Wild Bill - Wild Bill Panel: Quadrat 114
+Summarize_by_Quadrat.csv,97,Wild Bill - Wild Bill Panel: Quadrat 119,Count of Each Species Observed at Quadrat Wild Bill - Wild Bill Panel: Quadrat 119
+Summarize_by_Quadrat.csv,98,Wild Bill - Willaha: Quadrat 1,Count of Each Species Observed at Quadrat Wild Bill - Willaha: Quadrat 1
+Summarize_by_Quadrat.csv,99,Wild Bill - Willaha: Quadrat 2,Count of Each Species Observed at Quadrat Wild Bill - Willaha: Quadrat 2
+Summarize_by_Quadrat.csv,100,Wild Bill - Willaha: Quadrat 3,Count of Each Species Observed at Quadrat Wild Bill - Willaha: Quadrat 3
+Summarize_by_Quadrat.csv,101,Wild Bill - Willaha: Quadrat 4,Count of Each Species Observed at Quadrat Wild Bill - Willaha: Quadrat 4

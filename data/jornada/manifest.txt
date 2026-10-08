@@ -1,0 +1,6 @@
+Manifest file for knb-lter-jrn.210351001.49.zip created on Thu Oct 08 20:29:22 UTC 2026
+Jornada_permanent_quads_cover.csv (14600416 bytes)
+JER_Quadrats_map.jpg (4890640 bytes)
+knb-lter-jrn.210351001.49.xml (23994 bytes)
+knb-lter-jrn.210351001.49.txt (14921 bytes)
+knb-lter-jrn.210351001.49.report.xml (45782 bytes)
