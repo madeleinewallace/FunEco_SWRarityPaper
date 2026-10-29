@@ -108,4 +108,25 @@ jrn_spp <- jorn_cover |>
          area = as.numeric(area),
          survey_date = make_date(year, month, day)) |> 
   semi_join(jrn_quad, by = c("quadrat" = "unit", "year", "survey_date")) |> 
-  group_by(year, species)
+  group_by(year, species = scientific_name) |> 
+  summarize(total_cover = 100 * sum(area, na.rm = TRUE), .groups = "drop") |> 
+  mutate(site = "jornada")
+
+# FLAGSTAFF
+flag_cover <- read_csv("data/flag/Basal_Cover_per_Species_by_Quadrat_and_Year.csv")
+
+flag_quad <- flag_cover |> 
+  mutate(area_cm2 = if_else(Species == "No Cover Species Observed", 0, Area_Sq_Cm)) |> 
+  group_by(Site, Quadrat, Year) |> 
+  summarize(total_cover = sum(area_cm2, na.rm = TRUE) / 100, .groups = "drop") |> 
+  transmute(unit = as.character(Quadrat), subsite = Site, year = Year,
+            survey_date = make_date(year, fixed_survey$flagstaff["month"], fixed_survey$flagstaff["day"]),
+            total_cover)
+
+flag_site <- site_data(flag_quad, "flagstaff")
+
+flag_spp <- flag_cover |> 
+  filter(!Species %in% c("No Cover Species Observed", "Unknown graminoid")) |> 
+  group_by(year = Year, species = Species) |> 
+  summarize(total_cover = sum(Area_Sq_Cm, na.rm = TRUE) / 100, .groups = "drop") |> 
+  mutate(site = "flagstaff")
