@@ -71,7 +71,8 @@ site_data <- function(df, site_name) {
 }
 
 # JORNADA
-jorn_cover <- read_csv("data/jornada/Jornada_permanent_quads_cover.csv")
+jorn_cover <- read_csv("data/jornada/Jornada_permanent_quads_cover.csv",
+                       col_types = cols(.default = col_character()))
 
 jrn_quad <- jorn_cover |> 
   filter(chart_status == "processed") |> 
@@ -104,7 +105,7 @@ jrn_spp <- jorn_cover |>
          scientific_name != ".") |> 
   mutate(year = as.integer(year),
          month = as.integer(month),
-         day = replace_na(as.integer(day)), 15,
+         day = replace_na(as.integer(day), 15),
          area = as.numeric(area),
          survey_date = make_date(year, month, day)) |> 
   semi_join(jrn_quad, by = c("quadrat" = "unit", "year", "survey_date")) |> 
@@ -119,7 +120,7 @@ flag_quad <- flag_cover |>
   mutate(area_cm2 = if_else(Species == "No Cover Species Observed", 0, Area_Sq_Cm)) |> 
   group_by(Site, Quadrat, Year) |> 
   summarize(total_cover = sum(area_cm2, na.rm = TRUE) / 100, .groups = "drop") |> 
-  transmute(unit = as.character(Quadrat), subsite = Site, year = Year,
+  transmute(unit = paste(Site, Quadrat, sep = "_"), subsite = Site, year = Year,
             survey_date = make_date(year, fixed_survey$flagstaff["month"], fixed_survey$flagstaff["day"]),
             total_cover)
 
@@ -130,3 +131,39 @@ flag_spp <- flag_cover |>
   group_by(year = Year, species = Species) |> 
   summarize(total_cover = sum(Area_Sq_Cm, na.rm = TRUE) / 100, .groups = "drop") |> 
   mutate(site = "flagstaff")
+
+# SRER
+# -9999 = not measured
+# 0 = not observed
+srer_cover <- read_excel("data/srer/ltcover_2024Dec20.xlsx") |> 
+  mutate(across(starts_with("YR"), as.numeric)) |> 
+  pivot_longer(starts_with("YR"), names_to = "year", names_prefix = "YR",
+               names_transform = as.integer, values_to = "cover") |> 
+  mutate(cover = na_if(cover, -9999))
+
+srer_tran <- srer_cover |>
+  group_by(PASTURE, TRANSECT, year, CATEGORY) |>
+  summarise(group_cover = if (all(is.na(cover))) NA_real_ else sum(cover, na.rm = TRUE),
+            .groups = "drop") |>
+  group_by(PASTURE, TRANSECT, year) |>
+  summarise(total_cover = if (any(is.na(group_cover))) NA_real_ else sum(group_cover),
+            .groups = "drop") |>
+  transmute(unit = TRANSECT, year,
+            survey_date = make_date(year, fixed_survey$santarita["month"],
+                                    fixed_survey$santarita["day"]),
+            total_cover)
+
+srer_site <- site_data(srer_tran, "santarita")
+
+srer_spp <- srer_cover |>
+  filter(!SPECIES %in% c("OTHERPG", "OTHSHRUB")) |>
+  summarize(cover = mean(cover, na.rm = TRUE), .groups = "drop") |>
+  filter(!is.nan(cover)) |>
+  mutate(site = "santarita")
+# ==============================================================================
+
+
+
+# ==============================================================================
+# --- species x site x survey cover --------------------------------------------
+

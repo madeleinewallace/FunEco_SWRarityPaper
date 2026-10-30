@@ -556,6 +556,20 @@ results_santarita
 # jornada = spei36 over 11 month window best predicts cover
 # no significant windows found for flag or srer :/
 # was this useless? PERHAPS.
-# IT WAS DEF USELESS :(
+
+
+
+# okay try with the dredge function, try with MAP, MAT, PDSI, VPD
+# which climate variable best predicts total plant cover at each site?
+# dredge version: SPEI (all scales), MAT, MAP, VPD, PDSI
+#install.packages(c("MuMIn", "scPDSI"))
+library(tidyverse)
+library(lubridate)
+library(prism)
+library(terra)
+library(MuMIn)
+library(scPDSI)
+library(nlme)
+
 
 
