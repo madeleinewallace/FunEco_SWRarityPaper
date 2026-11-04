@@ -167,3 +167,33 @@ srer_spp <- srer_cover |>
 # ==============================================================================
 # --- species x site x survey cover --------------------------------------------
 
+# survey table
+surveys <- bind_rows(jrn_site, flag_site, srer_site) |> 
+  mutate(keep = n_units > min_units) |> #get rid of useless jornada surveys
+  select(site, year, survey_date, n_units, keep, total_cover = cover)
+
+surveys |> # just checking i didnt eff it up
+  group_by(site) |> 
+  summarize(years_total = n(), years_kept = sum(keep),
+            first = min(year[keep]), last = max(year[keep])) |> 
+  print()
+
+# species cover table
+# jorn and flag are summed cover/number of units read that year
+jrn_flag_spp <- bind_rows(jrn_spp, flag_spp) |> 
+  left_join(surveys |> select(site, year, n_units), by = c("site", "year")) |> 
+  mutate(cover = total_cover / n_units) |> 
+  select(site, year, species, cover)
+
+spp_cover <- bind_rows(jrn_flag_spp, srer_spp) |> 
+  semi_join(surveys |> filter(keep), by = c("site", "year")) |> 
+  group_by(site) |> 
+  complete(year, species, fill = list(cover = 0)) |>  #fill in zeroes
+  ungroup()
+
+# unit table (quad or tran)
+units_surveyed <- bind_rows(
+  jrn_quad |> mutate(site = "jornada"),
+  flag_quad |> mutate(site = "flagstaff"),
+  srer_tran |>  
+)
