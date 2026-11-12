@@ -1,0 +1,280 @@
+spp_scientific,spp_code,SLA,n_SLA,LDMC,n_LDMC,height,n_height,perennial,native_status,photosynthetic_pathway,growth_form,source
+Acaciella angustissima,ACAN,,,,,4.0474,19,,,C3,shrub,TRY
+Acaciella angustissima,ACAN,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Agave sp.,AGAV,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Agropyron desertorum,AGDE,8.9288,10,0.4158,4,0.255,8,1,,C3,graminoid,TRY
+Aloysia wrightii,ALWR,8.8614,10,0.4072,20,,,,,C3,shrub,TRY
+Aloysia wrightii,ALWR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Ambrosia ambrosioides,FRAM,,,,,,,,,,shrub,TRY
+Ambrosia ambrosioides,FRAM,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Anisacanthus thurberi,ANTH,,,,,,,1,,,shrub,TRY
+Anisacanthus thurberi,ANTH,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Antennaria parvifolia,ANPA,14.5779,13,0.311,19,0.0822,4,1,,C3,forb,TRY
+Antennaria rosulata,ANRO,18.6611,21,0.2918,4,0.0127,14,1,,C3,forb,TRY
+Arenaria lanuginosa,ARLA,22.1678,20,0.1495,4,,,,,C3,forb,TRY
+Aristida arizonica,ARAR,14.987,1,,,,,1,,C4,graminoid,TRY
+Aristida purpurea,ARPU9,9.1646,23,0.4515,14,0.1563,27,1,,C4,graminoid,TRY
+Aristida purpurea,ARPU9,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Aristida sp.,ARIST; ARIS,,,0.5025,2,0.41,1,,,C4,graminoid,TRY (genus-level records)
+Aristida sp.,ARIST; ARIS,,,,,,,,,,graminoid,"Jornada cover data (duration, form columns)"
+Aristida sp.,ARIST; ARIS,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Aristida ternipes,ARTE3,,,,,,,1,,C4,graminoid,TRY
+Aristida ternipes,ARTE3,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Artemisia sp.,ARTEM,,,,,,,,,,forb,TRY (genus-level records)
+Atriplex canescens,ATCA2; ATCA,8.0503,14,0.2938,10,1.16,21,1,,C4,shrub,TRY
+Atriplex canescens,ATCA2; ATCA,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Atriplex canescens,ATCA2; ATCA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Baccharis brachyphylla,BABR,,,,,,,,,,shrub,TRY
+Baccharis brachyphylla,BABR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Baccharis pteronioides,BARA,,,,,,,,,,shrub,TRY
+Baccharis pteronioides,BARA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Baccharis sarothroides,BASA,8.483,1,,,5,1,1,,C3,shrub,TRY
+Baccharis sarothroides,BASA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Baccharis sp.,BACC,,,,,1.5,1,,,C3,shrub,TRY (genus-level records)
+Baccharis sp.,BACC,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Baileya multiradiata,BAMU,,,,,0.4,1,,,,forb,TRY
+Baileya multiradiata,BAMU,,,,,,,1,,,forb,SRER cover data (CATEGORY=PFORB)
+Bothriochloa barbinodis,ANBA,20.2958,8,0.3103,8,0.6386,7,,,,,personal (santa-rita-traits-replicates.csv)
+Bothriochloa barbinodis,ANBA,22.415,1,,,,,1,,C4,graminoid,TRY
+Bothriochloa barbinodis,ANBA,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua chondrosioides,BOCH,,,,,,,1,,,graminoid,TRY
+Bouteloua chondrosioides,BOCH,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua curtipendula,BOCU,17.165,8,0.3689,8,0.39,7,,,,,personal (santa-rita-traits-replicates.csv)
+Bouteloua curtipendula,BOCU,13.0935,45,0.5185,39,0.4565,38,1,,C4,graminoid,TRY
+Bouteloua curtipendula,BOCU,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Bouteloua curtipendula,BOCU,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua eriopoda,BOER4; BOER,19.4829,8,0.3625,8,0.305,8,,,,,personal (santa-rita-traits-replicates.csv)
+Bouteloua eriopoda,BOER4; BOER,,,,,0.5333,3,1,,C4,graminoid,TRY
+Bouteloua eriopoda,BOER4; BOER,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Bouteloua eriopoda,BOER4; BOER,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua gracilis,BOGR; BOGR2,13.3708,52,0.4751,23,0.246,53,1,,C4,graminoid,TRY
+Bouteloua gracilis,BOGR; BOGR2,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Bouteloua hirsuta,BOHI2; BOHI,13.3756,12,0.3905,10,0.34,1,1,,C4,graminoid,TRY
+Bouteloua hirsuta,BOHI2; BOHI,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Bouteloua hirsuta,BOHI2; BOHI,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua repens,BOFI,,,,,,,1,,C4,graminoid,TRY
+Bouteloua repens,BOFI,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua rothrockii,BORO,18.6481,8,0.3172,8,0.2914,7,,,,,personal (santa-rita-traits-replicates.csv)
+Bouteloua rothrockii,BORO,,,,,,,,,,graminoid,TRY
+Bouteloua rothrockii,BORO,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Bouteloua sp.,BOUTE,,,,,,,1,,C4,graminoid,TRY (genus-level records)
+Bouteloua sp.,BOUTE,,,,,,,,,,graminoid,"Jornada cover data (duration, form columns)"
+Bromus ciliatus,BRCI,22.617,42,0.3245,28,0.4307,14,1,,C3,graminoid,TRY
+Calliandra eriophylla,CAER,8.4894,5,0.4882,5,0.092,5,,,,,personal (santa-rita-traits-replicates.csv)
+Calliandra eriophylla,CAER,,,0.4038,22,0.6,2,1,,C3,shrub,TRY
+Calliandra eriophylla,CAER,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Carex geophila,CAGE,11.927,12,0.3372,4,0.1041,9,1,,C3,graminoid,TRY
+Carex rossii,CARO,14.9198,,,,0.2229,,,,,,personal (TraitTable.csv)
+Carex rossii,CARO,,,,,,,1,,C3,graminoid,TRY
+Carlowrightia arizonica,CAAR,,,,,,,,,,forb,TRY
+Carlowrightia arizonica,CAAR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Celtis pallida,CEPA,10.3166,11,0.3931,22,3.048,1,1,,C3,tree,TRY
+Celtis pallida,CEPA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Cenchrus ciliaris,PECI,,,,,,,1,,C4,graminoid,TRY
+Cenchrus ciliaris,PECI,,,,,,,1,introduced,,graminoid,SRER cover data (CATEGORY=IPG)
+Cenchrus spinifex,CESP4,,,,,0.4,1,0,,C4,graminoid,TRY
+Cenchrus spinifex,CESP4,,,,,,,,,,graminoid,"Jornada cover data (duration, form columns)"
+Commicarpus scandens,COSC,,,,,,,1,,,forb,TRY
+Commicarpus scandens,COSC,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Condalia sp.,CONDA,,,,,,,,,C3,shrub,TRY (genus-level records)
+Cottea pappophoroides,COPA,,,,,,,,,C4,graminoid,TRY
+Cottea pappophoroides,COPA,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Cottsia gracilis,JAGR,,,,,,,1,,C3,vine,TRY
+Cottsia gracilis,JAGR,,,,,,,1,,,forb,SRER cover data (CATEGORY=PFORB)
+Cylindropuntia acanthocarpa,OPAC,,,,,,,,,,shrub,TRY
+Cylindropuntia acanthocarpa,OPAC,,,,,,,1,,,succulent,SRER cover data (CATEGORY=CHOLLA)
+Cylindropuntia arbuscula,OPAR,,,,,,,1,,CAM,shrub,TRY
+Cylindropuntia arbuscula,OPAR,,,,,,,1,,,succulent,SRER cover data (CATEGORY=CHOLLA)
+Cylindropuntia fulgida,OPFU,,,,,,,1,,CAM,succulent,TRY
+Cylindropuntia fulgida,OPFU,,,,,,,1,,,succulent,SRER cover data (CATEGORY=CHOLLA)
+Cylindropuntia imbricata subsp. spinosior,OPSP,,,,,,,,,,shrub,TRY
+Cylindropuntia imbricata subsp. spinosior,OPSP,,,,,,,1,,,succulent,SRER cover data (CATEGORY=CHOLLA)
+Cylindropuntia leptocaulis,OPLE,,,,,,,1,,CAM,shrub,TRY
+Cylindropuntia leptocaulis,OPLE,,,,,,,1,,,succulent,SRER cover data (CATEGORY=CHOLLA)
+Cylindropuntia thurberi subsp. versicolor,OPVE,,,,,,,1,,CAM,shrub,TRY
+Cylindropuntia thurberi subsp. versicolor,OPVE,,,,,,,1,,,succulent,SRER cover data (CATEGORY=CHOLLA)
+Cyperus retroflexus,CYRE14,,,,,,,,,,graminoid,TRY
+Cyperus retroflexus,CYRE14,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Cyperus sp.,CYPER,19.8924,15,0.3155,30,0.1067,6,1,,C4,graminoid,TRY (genus-level records)
+Dasyochloa pulchella,DAPU7; ERPU,6.463,1,,,,,1,,C4,graminoid,TRY
+Dasyochloa pulchella,DAPU7; ERPU,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Dasyochloa pulchella,DAPU7; ERPU,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Digitaria californica,DICA8; DICA,28.0048,8,0.2148,8,0.4571,7,,,,,personal (santa-rita-traits-replicates.csv)
+Digitaria californica,DICA8; DICA,,,,,,,1,,C4,graminoid,TRY
+Digitaria californica,DICA8; DICA,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Digitaria californica,DICA8; DICA,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Digitaria cognata,LECO,32.7775,3,,,0.2115,1,1,,C4,graminoid,TRY
+Digitaria cognata,LECO,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Disakisperma dubium,LEDU,,,,,,,1,,C4,graminoid,TRY
+Disakisperma dubium,LEDU,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Echinocereus sp.,ECHI,,,,,,,,,,succulent,TRY (genus-level records)
+Echinocereus sp.,ECHI,,,,,,,1,,,succulent,SRER cover data (CATEGORY=OTHCACTUS)
+Elymus elymoides,ELEL; SIHY,17.0884,,,,0.2362,,,,,,personal (TraitTable.csv)
+Elymus elymoides,ELEL; SIHY,12.7752,31,0.3541,14,0.3014,38,1,,C3,graminoid,TRY
+Elymus elymoides,ELEL; SIHY,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Encelia frutescens,ENFR,,,,,0.8,1,,,C3,shrub,TRY
+Encelia frutescens,ENFR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Enneapogon desvauxii,ENDE,38.387,1,,,,,,,C4,graminoid,TRY
+Enneapogon desvauxii,ENDE,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Enneapogon desvauxii,ENDE,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Ephedra sp.,EPHED,,,,,,,,,,vine,TRY (genus-level records)
+Ephedra sp.,EPHED,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Ephedra torreyana,EPTO,2.157,1,,,0.33,1,1,,C3,shrub,TRY
+Ephedra torreyana,EPTO,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Ephedra trifurca,EPTR,,,,,1.2114,7,1,,C3,shrub,TRY
+Ephedra trifurca,EPTR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Eragrostis curvula,ERCU,15.713,1,,,0.9144,1,1,,C4,graminoid,TRY
+Eragrostis curvula,ERCU,,,,,,,1,introduced,,graminoid,SRER cover data (CATEGORY=IPG)
+Eragrostis intermedia,ERIN,,,,,,,1,,C4,graminoid,TRY
+Eragrostis intermedia,ERIN,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Eragrostis lehmanniana,ERLE,,,,,0.61,1,1,,C4,graminoid,TRY
+Eragrostis lehmanniana,ERLE,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Eragrostis lehmanniana,ERLE,,,,,,,1,introduced,,graminoid,SRER cover data (CATEGORY=IPG)
+Eremogone fendleri,ERFE,14.7239,31,0.2762,4,0.0874,28,1,,C3,forb,TRY
+Ericameria laricifolia,HALA,,,,,,,,,,shrub,TRY
+Ericameria laricifolia,HALA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Eriogonum sp.,ERIO,21.5149,1,0.1971,1,,,1,,C3,subshrub,TRY (genus-level records)
+Eriogonum sp.,ERIO,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Eriogonum wrightii,ERWR,7.123,5,0.3383,5,0.198,5,,,,,personal (santa-rita-traits-replicates.csv)
+Eriogonum wrightii,ERWR,,,0.4048,20,,,1,,,subshrub,TRY
+Eriogonum wrightii,ERWR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Eriophorum sp.,ERIOP,,,,,,,,,,graminoid,TRY (genus-level records)
+Eriophorum sp.,ERIOP,,,,,,,,,,graminoid,"Jornada cover data (duration, form columns)"
+Ferocactus wislizeni,FEWI,,,,,1.35,1,1,,CAM,succulent,TRY
+Ferocactus wislizeni,FEWI,,,,,,,1,,,succulent,SRER cover data (CATEGORY=OTHCACTUS)
+Festuca arizonica,FEAR,13.5747,,,,0.2645,,,,,,personal (TraitTable.csv)
+Festuca arizonica,FEAR,13.5765,20,0.3618,4,0.418,15,1,,C3,graminoid,TRY
+Flourensia cernua,FLCE,8.6291,2,,,1.03,5,1,,C3,shrub,TRY
+Flourensia cernua,FLCE,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Fouquieria splendens,FOSP,19.881,40,0.217,22,4.2167,3,1,,C3,shrub,TRY
+Fouquieria splendens,FOSP,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Gutierrezia sarothrae,GUSA,9.2909,34,0.3615,32,0.2607,37,1,,C3,subshrub,TRY
+Gutierrezia sarothrae,GUSA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Haplopappus sp.,HAPLO11,,,,,,,,,,forb/shrub,TRY (genus-level records)
+Heteropogon contortus,HECO,17.6102,8,0.3678,8,0.6362,8,,,,,personal (santa-rita-traits-replicates.csv)
+Heteropogon contortus,HECO,,,,,,,1,,C4,graminoid,TRY
+Heteropogon contortus,HECO,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Hibiscus sp.,HIBI,,,,,,,,,C3,shrub,TRY (genus-level records)
+Hibiscus sp.,HIBI,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Hilaria belangeri,HIBE,26.2845,8,0.3037,8,0.2062,8,,,,,personal (santa-rita-traits-replicates.csv)
+Hilaria belangeri,HIBE,,,,,,,1,,C4,graminoid,TRY
+Hilaria belangeri,HIBE,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Hordeum jubatum,HOJU,20.5627,11,0.2785,8,0.42,3,1,,C3,graminoid,TRY
+Hymenoclea sp.,HYMEN3,,,,,,,,,,shrub,TRY (genus-level records)
+Isocoma tenuisecta,APTE,5.1054,5,0.4165,5,0.364,5,,,,,personal (santa-rita-traits-replicates.csv)
+Isocoma tenuisecta,APTE,7.113,30,,,,,1,,C3,forb,TRY
+Isocoma tenuisecta,APTE,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Koeleria macrantha,KOMA,11.6114,58,0.3995,56,0.2529,56,1,,C3,graminoid,TRY
+Krameria erecta,KRPA,6.42,1,,,,,1,,C3,shrub,TRY
+Krameria erecta,KRPA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Krameria grayi,KRGR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Krascheninnikovia lanata,KRLA2,9.9102,14,0.5234,10,0.3873,21,1,,C3,subshrub,TRY
+Krascheninnikovia lanata,KRLA2,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Larrea tridentata,LATR2; LATR,6.7267,49,0.465,22,1.8,9,1,,C3,shrub,TRY
+Larrea tridentata,LATR2; LATR,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Larrea tridentata,LATR2; LATR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Lupinus sp.,LUPIN,23.5083,2,0.1922,1,,,1,,C3,forb,TRY (genus-level records)
+Lycium andersonii,LYAN,7.9497,12,0.2497,22,1.625,2,1,,C3,shrub,TRY
+Lycium andersonii,LYAN,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Lycium berlandieri,LYBE,14.4057,26,,,1.015,2,1,,C3,shrub,TRY
+Lycium berlandieri,LYBE,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Lycium pallidum,LYPA,,,,,,,1,,C3,shrub,TRY
+Lycium pallidum,LYPA,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Lycium sp.,LYCI,,,,,,,1,,C3,shrub,TRY (genus-level records)
+Lycium sp.,LYCI,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Lycium torreyi,LYTO,,,,,,,1,,,shrub,TRY
+Lycium torreyi,LYTO,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Lycurus phleoides,LYPH,,,,,,,,,C4,graminoid,TRY
+Lycurus phleoides,LYPH,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Lycurus phleoides,LYPH,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Lycurus setosus,LYSE3,,,,,,,,,,graminoid,TRY
+Lycurus setosus,LYSE3,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Mammillaria sp.,MAMM,,,,,,,,,CAM,succulent,TRY (genus-level records)
+Mammillaria sp.,MAMM,,,,,,,1,,,succulent,SRER cover data (CATEGORY=OTHCACTUS)
+Mimosa aculeaticarpa,MIBI,,,,,,,,,C3,shrub,TRY
+Mimosa aculeaticarpa,MIBI,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Mimosa dysocarpa,MIDY,,,,,,,,,C3,shrub,TRY
+Mimosa dysocarpa,MIDY,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Muhlenbergia arenacea,MUAR,,,,,0.18,1,1,,C4,graminoid,TRY
+Muhlenbergia arenacea,MUAR,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Muhlenbergia arenicola,MUAR2; MUAR,,,,,,,,,,graminoid,TRY
+Muhlenbergia arenicola,MUAR2; MUAR,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Muhlenbergia arenicola,MUAR2; MUAR,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Muhlenbergia montana,MUMO,15.5489,,,,0.2872,,,,,,personal (TraitTable.csv)
+Muhlenbergia montana,MUMO,7.7375,20,0.4995,4,0.37,18,1,,C4,graminoid,TRY
+Muhlenbergia porteri,MUPO2; MUPO,48.1158,8,0.2434,8,0.495,8,,,,,personal (santa-rita-traits-replicates.csv)
+Muhlenbergia porteri,MUPO2; MUPO,36.07,1,,,0.31,1,1,,C4,graminoid,TRY
+Muhlenbergia porteri,MUPO2; MUPO,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Muhlenbergia porteri,MUPO2; MUPO,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Muhlenbergia rigens,MURI,7.8707,22,0.426,4,0.3875,16,1,,C4,graminoid,TRY
+Muhlenbergia sp.,MUHLE,,,,,,,,,C4,graminoid,TRY (genus-level records)
+Muhlenbergia sp.,MUHLE,,,,,,,,,,graminoid,"Jornada cover data (duration, form columns)"
+Muhlenbergia torreyi,MUTO2,,,,,,,1,,C4,graminoid,TRY
+Muhlenbergia torreyi,MUTO2,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Muhlenbergia tricholepis,MUTR,,,,,,,1,,,graminoid,TRY
+Muhlenbergia wrightii,MUWR,15,,,,0.35,,,,,,personal (TraitTable.csv)
+Muhlenbergia wrightii,MUWR,15.3934,20,0.3996,4,0.3427,15,1,,C4,graminoid,TRY
+Opuntia engelmannii,OPEN,,,,,,,1,,CAM,shrub,TRY
+Opuntia engelmannii,OPEN,,,,,,,1,,,succulent,SRER cover data (CATEGORY=PPEAR)
+Panicum hallii,PAHA,,,,,,,,,C4,graminoid,TRY
+Panicum hallii,PAHA,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Panicum obtusum,PAOB,16.1972,1,,,,,1,,C4,graminoid,TRY
+Panicum obtusum,PAOB,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Pappophorum mucronulatum,PAMU,,,,,,,,,,graminoid,TRY
+Pappophorum mucronulatum,PAMU,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Parkinsonia florida,CEFL,,,,,,,1,,C3,tree,TRY
+Parkinsonia florida,CEFL,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Parkinsonia microphylla,CEMI,2.2893,11,0.4123,20,7,2,1,,C3,tree,TRY
+Parkinsonia microphylla,CEMI,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Pleuraphis mutica,PLMU3,,,,,0.33,1,1,,C4,graminoid,TRY
+Pleuraphis mutica,PLMU3,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Poa compressa,POCO,22.7902,25,0.2971,26,0.2825,28,1,,C3,graminoid,TRY
+Poa fendleriana,POFE,7.6731,19,0.3593,4,0.1307,19,1,,C3,graminoid,TRY
+Poa pratensis,POPR,18.4418,352,0.3319,461,0.3358,158,1,,C3,graminoid,TRY
+Prosopis glandulosa,PRGL2,8.5023,15,0.4765,20,1.3107,15,1,,C3,tree,TRY
+Prosopis glandulosa,PRGL2,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Prosopis velutina,PRVE,14.3215,13,0.3382,22,4.16,20,1,,C3,shrub,TRY
+Prosopis velutina,PRVE,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Psorothamnus scoparius,PSSC6,,,,,,,1,,C3,shrub,TRY
+Psorothamnus scoparius,PSSC6,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Sarcomphalus obtusifolius,ZIOB,7,2,,,,,1,,C3,shrub,TRY
+Sarcomphalus obtusifolius,ZIOB,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Schizachyrium scoparium,SCSC,17,,,,0.52,,,,,,personal (TraitTable.csv)
+Schizachyrium scoparium,SCSC,16.3068,75,0.3939,61,0.641,58,1,,C4,graminoid,TRY
+Scleropogon brevifolius,SCBR2,,,,,0.145,2,1,,C4,graminoid,TRY
+Scleropogon brevifolius,SCBR2,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Senegalia greggii,ACGR,7.8354,12,0.5283,20,9,2,1,,C3,tree,TRY
+Senegalia greggii,ACGR,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Setaria leucopila,SELE6,,,,,,,,,C4,graminoid,TRY
+Setaria leucopila,SELE6,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Setaria macrostachya,SEMA,,,,,,,,,C4,graminoid,TRY
+Setaria macrostachya,SEMA,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Sporobolus airoides,SPAI,8.486,1,,,,,1,,C4,graminoid,TRY
+Sporobolus airoides,SPAI,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Sporobolus contractus,SPCO4,18.675,1,,,0.92,1,1,,C4,graminoid,TRY
+Sporobolus contractus,SPCO4,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Sporobolus cryptandrus,SPCR,12.8174,13,0.4033,10,0.4773,20,1,,C4,graminoid,TRY
+Sporobolus cryptandrus,SPCR,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Sporobolus flexuosus,SPFL2,19.759,1,,,0.86,1,1,,C4,graminoid,TRY
+Sporobolus flexuosus,SPFL2,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Sporobolus interruptus,SPIN,10.7895,20,0.43,4,0.148,10,1,,C4,graminoid,TRY
+Sporobolus nealleyi,SPNE,,,,,0.07,1,1,,C4,graminoid,TRY
+Sporobolus nealleyi,SPNE,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Sporobolus sp.,SPORO; SPOR,,,,,,,,,,graminoid,TRY (genus-level records)
+Sporobolus sp.,SPORO; SPOR,,,,,,,,,,graminoid,"Jornada cover data (duration, form columns)"
+Sporobolus sp.,SPORO; SPOR,,,,,,,1,native,,graminoid,SRER cover data (CATEGORY=NPG)
+Thinopyrum intermedium,THIN,,,,,,,1,,C3,graminoid,TRY
+Tridens muticus,TRMU,17.4,1,,,,,,,C4,graminoid,TRY
+Tridens muticus,TRMU,,,,,,,1,,,graminoid,"Jornada cover data (duration, form columns)"
+Vachellia constricta,VACO9; ACCO,7.2646,10,0.4827,16,4.1333,3,1,,C3,shrub,TRY
+Vachellia constricta,VACO9; ACCO,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Vachellia constricta,VACO9; ACCO,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Xanthisma spinulosum,HASP,21.226,1,,,0.16,2,1,,C3,forb,TRY
+Xanthisma spinulosum,HASP,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Yucca baccata,YUBA,,,,,,,1,,C3,shrub,TRY
+Yucca baccata,YUBA,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Yucca elata,YUEL,,,,,1.1,1,1,,CAM,shrub,TRY
+Yucca elata,YUEL,,,,,,,1,,,shrub,"Jornada cover data (duration, form columns)"
+Yucca elata,YUEL,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)
+Zinnia acerosa,ZIPU,,,,,0.175,2,1,,C3,forb,TRY
+Zinnia acerosa,ZIPU,,,,,,,1,,,woody,SRER cover data (CATEGORY=WOODY)

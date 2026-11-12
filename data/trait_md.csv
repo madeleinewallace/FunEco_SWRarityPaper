@@ -1,0 +1,21 @@
+﻿column,description,units,values
+spp_scientific,"Scientific name as recorded in the cover data. Taxa identified only to genus end in ""sp.""",,text
+spp_code,Species code used in each site's cover data: USDA PLANTS codes (Jornada); SRER codes (SRER); 4-letter codes for Flagstaff data,,text
+spp_code2,"Some species codes are different across site cover data, this is the second one",,text
+spp_code6,"6-letter code, genus-level taxa use SPP",,text
+cover_site1,Site whose cover data recorded the taxon,,text
+cover_site2,Second site whose cover data recorded the taxon,,text
+SLA,Specific leaf area: leaf area / leaf dry mass. taxon mean of personal replicates or of TRY records,mm2 mg-1,numeric
+n_SLA,Number of replicates or TRY records,count,integer
+SLA_source,Source of the SLA value,,personal; TRY; TRY (genus-level)
+LDMC,Leaf dry matter content: leaf dry mass / leaf fresh mass. taxon mean of personal replicates or of TRY records,g g-1,numeric
+n_LDMC,Number of replicates or TRY records,count,integer
+LDMC_source,Source of the LDMC value,,personal; TRY; TRY (genus-level)
+height,Plant height; all vegetative height,m,numeric
+n_height,Number of replicates or TRY records,count,integer
+height_source,Source of the height value,,personal; TRY; TRY (genus-level)
+perennial,Lifespan,,1 = perennial; 0 = annual or biennial
+native_status,Native status,,native; introduced
+photosynthetic_pathway,Photosynthetic pathway,,C3; C4; CAM
+growth_form,Growth form. Need to change woody to what it is from SRER,,graminoid; forb; subshrub; shrub; tree; succulent; vine
+methods_summary,"One row per taxon. for each trait, the value comes from the first available source in this order: personal measurements, TRY species-level, TRY genus-level, Jornada cover data, SRER cover data. TRY measured traits (SLA, LDMC, height): duplicates and outliers (ErrorRisk >= 4 ion TRY) removed; TRY data restricted to field-grown, mature plants in North America. TRY records located outside North America were removed. Blank = no data in any source.",,not a data column
